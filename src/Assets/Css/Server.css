@@ -21,6 +21,22 @@
      
     }  
 
+    .sidePageSizeExp{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
 
     
 .skillDetails{
@@ -216,6 +232,22 @@
  
     }  
 
+
+    .sidePageSizeExp{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
         
 .skillDetails{
     display: flex;
@@ -408,6 +440,22 @@
         left: 14%;
      
     }  
+
+
+    .sidePageSizeExp{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
 
         
 .skillDetails{
@@ -606,6 +654,23 @@
        
     }  
 
+
+    .sidePageSizeExp{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
            
 .skillDetails{
     display: flex;
@@ -800,6 +865,22 @@
        
     }  
 
+    .sidePageSizeExp{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
            
 .skillDetails{
     display: flex;
@@ -993,6 +1074,22 @@
        
     }  
 
+    .sidePageSizeExp{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
     .skillDetails{
         display: flex;
         min-width: 74vw;
@@ -1185,6 +1282,22 @@
     }  
 
 
+    .sidePageSizeExp{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
     .skillDetails{
         display: flex;
         min-width: 74vw;
@@ -1373,6 +1486,23 @@
         left: 9%;
        
     }  
+
+
+    .sidePageSizeExp{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
 
     
     .skillDetails{
@@ -1569,6 +1699,22 @@
         left: 5.5%;
     
     }  
+
+    .sidePageSizeExp{
+        min-width: 94.5vw;
+        max-width: 94.5vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
 
         
     .skillDetails{
@@ -1770,6 +1916,21 @@
         
     } 
 
+    .sidePageSizeExp{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
     
 .skillDetails{
     display: flex;
@@ -1962,6 +2123,24 @@
         flex-direction: column;
         position: relative;
         left: 4%;
+      
+    } 
+
+   
+
+    .sidePageSizeExp{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+
+
+        background-color: rgb(152, 28, 253)
         
     } 
 
@@ -2162,6 +2341,22 @@
         
     } 
 
+
+    .sidePageSizeExp{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
     
 .skillDetails{
     display: flex;
@@ -2355,3 +2550,39 @@
     display:none !important; 
   }
 
+
+
+
+
+  .addMargin{
+    position: relative;
+    top:-92vh;
+  }
+
+  .carouselPosition{
+    position: relative;
+    top: -90vh;
+
+    width: 49vw;
+    border: 0.15rem solid #439bff;
+
+  }
+
+  .carousel-indicators [data-bs-target]{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 0.5rem;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(152, 28, 253);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+  }
