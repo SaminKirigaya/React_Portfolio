@@ -166,7 +166,32 @@
 }
 
 
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
 }
+
+.giveMargin{
+    margin-top: 0.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 2vh;
+}
+
+}
+
+
 
 @media (min-width: 371px) and (max-width: 389px){
     .mainRect{
@@ -335,6 +360,29 @@
     text-align: justify !important;
 }
 
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 0.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 0vh;
+}
 
 }
 
@@ -506,7 +554,34 @@
 }
 
 
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
 }
+
+.giveMargin{
+    margin-top: 1.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 9vh;
+}
+
+
+}
+
+
+
 
 @media (min-width: 410px) and (max-width: 539px){
     .mainRect{
@@ -672,6 +747,31 @@
 
 .justIt{
     text-align: justify !important;
+}
+
+
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 1.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 14vh;
 }
 
 
@@ -843,6 +943,31 @@
 }
 
 
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: .5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 0vh;
+}
+
+
+
 }   
 
 @media (min-width: 761px) and (max-width: 819px){
@@ -1006,6 +1131,30 @@
 
 .justIt{
     text-align: justify !important;
+}
+
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 9.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 18vh;
 }
 
 
@@ -1176,6 +1325,28 @@
     text-align: justify !important;
 }
 
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 9.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 24vh;
+}
+
 
 }
 
@@ -1343,6 +1514,30 @@
 
 .justIt{
     text-align: justify !important;
+}
+
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 9.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 21vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 28vh;
 }
 
 
@@ -1522,7 +1717,35 @@
 
 
 
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
 }
+
+.giveMargin{
+    margin-top: 2rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 23vh;
+}
+
+
+
+}
+
+
+
 
 @media (min-width: 1261px) and (max-width: 1360px){
     .mainRect{
@@ -1690,6 +1913,30 @@
 
 .aboutText{
     font-size: 0.72rem;
+}
+
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 2rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 19vh;
 }
 
 
@@ -1864,7 +2111,33 @@
 
 
 
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
 }
+
+.giveMargin{
+    margin-top: 3rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 20vh;
+}
+
+
+
+}
+
+
 
 @media (min-width: 1901px) and (max-width: 5000px){
     .mainRect{
@@ -2039,6 +2312,33 @@
     font-size: 1.2rem;
 }
 
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 8rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 27vh;
+}
+
+
+
+
 }
 
 .tooltip-inner{
@@ -2055,21 +2355,3 @@
     display:none !important; 
   }
 
-
-.upperCut{
-    display: block;
-    width: 100%;
-    height: 15vh;
-    background-color: rgb(152, 28, 253);
-    clip-path: polygon(0 0, 0 100%, 100% 0);
-}
-
-.lowerCut{
-    display: block;
-    width: 100%;
-    height: 15vh;
-    background-color: rgb(152, 28, 253);
-    clip-path: polygon(0 100%, 100% 100%, 100% 0);
-    position: relative;
-    top: 27vh;
-}

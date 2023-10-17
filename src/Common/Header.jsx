@@ -5,6 +5,7 @@ const Nav = React.lazy(()=>import('../Common/Nav'))
 const Introduction = React.lazy(()=>import('../Components/Introduction'))
 const AboutMe = React.lazy(()=>import('../Components/AboutMe'))
 const Experience = React.lazy(()=>import('../Components/Experience'))
+const Certificate = React.lazy(()=>import('../Components/Certificate'))
 
 function loadingEffect(){
   return  <div className='container-fluid loader d-flex justify-content-center align-items-center'>
@@ -28,6 +29,8 @@ function Header() {
       
       <AboutMe />
       <Experience />
+      <Certificate />
+
 
     </Fragment>
   )
