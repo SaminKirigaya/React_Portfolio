@@ -3,8 +3,8 @@ import React, { Suspense, Fragment, useState, useEffect } from 'react'
 
 const Nav = React.lazy(()=>import('../Common/Nav'))
 const Introduction = React.lazy(()=>import('../Components/Introduction'))
-
-
+const AboutMe = React.lazy(()=>import('../Components/AboutMe'))
+const Experience = React.lazy(()=>import('../Components/Experience'))
 
 function loadingEffect(){
   return  <div className='container-fluid loader d-flex justify-content-center align-items-center'>
@@ -26,7 +26,8 @@ function Header() {
         <Introduction />
       </Suspense>
       
-      
+      <AboutMe />
+      <Experience />
 
     </Fragment>
   )

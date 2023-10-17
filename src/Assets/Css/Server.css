@@ -20,6 +20,152 @@
         left: 13%;
      
     }  
+
+
+    
+.skillDetails{
+    display: flex;
+    min-width: 76vw;
+    max-width: 76vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 8vh !important;
+    left: 6.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: 0.5vh !important;
+    left: 10%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 126%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -6vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -5vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -5vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -5vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.7rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }
 
 @media (min-width: 371px) and (max-width: 389px){
@@ -44,6 +190,152 @@
         left: 13%;
  
     }  
+
+        
+.skillDetails{
+    display: flex;
+    min-width: 76vw;
+    max-width: 76vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 8vh !important;
+    left: 6.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: 0.5vh !important;
+    left: 10%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 126%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -6vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -6vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -3vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.7rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }
 
 @media (min-width: 390px) and (max-width: 410px){
@@ -68,6 +360,152 @@
         left: 14%;
      
     }  
+
+        
+.skillDetails{
+    display: flex;
+    min-width: 76vw;
+    max-width: 76vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 8vh !important;
+    left: 6.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: 1.5vh !important;
+    left: 10%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 126%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -5vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -2vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -5vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.8rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }
 
 @media (min-width: 410px) and (max-width: 539px){
@@ -92,6 +530,151 @@
         left: 14%;
        
     }  
+
+           
+.skillDetails{
+    display: flex;
+    min-width: 76vw;
+    max-width: 76vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 8vh !important;
+    left: 6.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: 1.5vh !important;
+    left: 10%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 126%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -5vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -2vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -5vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.8rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }
 
 @media (min-width: 540px) and (max-width: 760px){
@@ -116,6 +699,150 @@
         left: 9%;
        
     }  
+
+           
+.skillDetails{
+    display: flex;
+    min-width: 74vw;
+    max-width: 74vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 6vh !important;
+    left: 9.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 52vw;
+    max-width: 52vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: -3.5vh !important;
+    left: 22%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 84%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -6vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -5vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -4vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 10%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.8rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }   
 
 @media (min-width: 761px) and (max-width: 819px){
@@ -140,6 +867,148 @@
         left: 9%;
        
     }  
+
+    .skillDetails{
+        display: flex;
+        min-width: 74vw;
+        max-width: 74vw;
+        min-height: 30vh;
+        max-height: 30vh;
+        border: 0.15rem solid rgb(152, 28, 253);
+        position: relative;
+        top: 12vh !important;
+        left: 9.5%;
+        border-radius: 0.7rem;
+        background-color: #f5f5f6;
+        z-index: 400;
+        padding: 2rem;
+    }
+    
+    .introPageImgBox{
+        display: flex;
+        min-width: 52vw;
+        max-width: 52vw;
+        min-height: 65vh;
+        max-height: 65vh;
+       
+        position: relative;
+        top: 11.5vh !important;
+        left: 22%;
+       
+        z-index: 300;
+    }
+    
+    .firstBall{
+        display: flex;
+        min-width: 35vw;
+        max-width: 35vw;
+        min-height: 35vw;
+        max-height: 35vw;
+    
+        position: relative;
+        top: -58vh !important;
+        left: 60%;
+    
+        z-index: 200;
+    
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+    
+    }
+    
+    .secondBall{
+    
+        display: flex;
+        min-width: 20vw;
+        max-width: 20vw;
+        min-height: 20vw;
+        max-height: 20vw;
+    
+        position: relative;
+        top: -131vh !important;
+        left: 69%;
+    
+        z-index: 100;
+    
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+    
+    }
+
+    
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -6vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -3vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -6vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 11%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 1.2rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }
 
 
@@ -165,6 +1034,149 @@
         left: 9%;
        
     }  
+
+
+    .skillDetails{
+        display: flex;
+        min-width: 74vw;
+        max-width: 74vw;
+        min-height: 30vh;
+        max-height: 30vh;
+        border: 0.15rem solid rgb(152, 28, 253);
+        position: relative;
+        top: 12vh !important;
+        left: 9.5%;
+        border-radius: 0.7rem;
+        background-color: #f5f5f6;
+        z-index: 400;
+        padding: 2rem;
+    }
+    
+    .introPageImgBox{
+        display: flex;
+        min-width: 54vw;
+        max-width: 54vw;
+        min-height: 65vh;
+        max-height: 65vh;
+       
+        position: relative;
+        top: 12.5vh !important;
+        left: 21%;
+       
+        z-index: 300;
+    }
+    
+    .firstBall{
+        display: flex;
+        min-width: 35vw;
+        max-width: 35vw;
+        min-height: 35vw;
+        max-height: 35vw;
+    
+        position: relative;
+        top: -58vh !important;
+        left: 60%;
+    
+        z-index: 200;
+    
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+    
+    }
+    
+    .secondBall{
+    
+        display: flex;
+        min-width: 20vw;
+        max-width: 20vw;
+        min-height: 20vw;
+        max-height: 20vw;
+    
+        position: relative;
+        top: -131vh !important;
+        left: 69%;
+    
+        z-index: 100;
+    
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+    
+    }
+
+        
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -6vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -3vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -6vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 11%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 1.2rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
 }
 
 
@@ -190,10 +1202,157 @@
         left: 9%;
        
     }  
+
+    
+    .skillDetails{
+        display: flex;
+        min-width: 74vw;
+        max-width: 74vw;
+        min-height: 30vh;
+        max-height: 30vh;
+        border: 0.15rem solid rgb(152, 28, 253);
+        position: relative;
+        top: 12vh !important;
+        left: 9.5%;
+        border-radius: 0.7rem;
+        background-color: #f5f5f6;
+        z-index: 400;
+        padding: 2rem;
+    }
+    
+    .introPageImgBox{
+        display: flex;
+        min-width: 54vw;
+        max-width: 54vw;
+        min-height: 65vh;
+        max-height: 65vh;
+       
+        position: relative;
+        top: 14vh !important;
+        left: 21%;
+       
+        z-index: 300;
+    }
+    
+    .firstBall{
+        display: flex;
+        min-width: 35vw;
+        max-width: 35vw;
+        min-height: 35vw;
+        max-height: 35vw;
+    
+        position: relative;
+        top: -58vh !important;
+        left: 60%;
+    
+        z-index: 200;
+    
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+    
+    }
+    
+    .secondBall{
+    
+        display: flex;
+        min-width: 20vw;
+        max-width: 20vw;
+        min-height: 20vw;
+        max-height: 20vw;
+    
+        position: relative;
+        top: -131vh !important;
+        left: 69%;
+    
+        z-index: 100;
+    
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+    
+    }
+
+
+        
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -6vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -3vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -9vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 11%;
+
+
+    padding-top: 2.1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 1.5rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
+
+
 }
 
 
 @media (min-width: 1021px) and (max-width: 1260px){
+
     .mainRect{
         min-width: 5.5vw;
         max-width: 5.5vw;
@@ -215,6 +1374,154 @@
         left: 5.5%;
     
     }  
+
+        
+    .skillDetails{
+        display: flex;
+        min-width: 40vw;
+        max-width: 40vw;
+        min-height: 45vh;
+        max-height: 45vh;
+        border: 0.15rem solid rgb(152, 28, 253);
+        position: relative;
+        top: 15vh !important;
+        left: 13%;
+        border-radius: 0.7rem;
+        background-color: #f5f5f6;
+        z-index: 400;
+        padding: 2rem;
+    }
+
+    .introPageImgBox{
+        display: flex;
+        min-width: 27vw;
+        max-width: 27vw;
+        min-height: 65vh;
+        max-height: 65vh;
+    
+        position: relative;
+        top: -5.5vh !important;
+        left: 58%;
+    
+        z-index: 300;
+    }
+
+    .firstBall{
+        display: flex;
+        min-width: 16vw;
+        max-width: 16vw;
+        min-height: 16vw;
+        max-height: 16vw;
+
+        position: relative;
+        top: -58vh !important;
+        left: 41%;
+
+        z-index: 200;
+
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+
+    }
+
+    .secondBall{
+
+        display: flex;
+        min-width: 10vw;
+        max-width: 10vw;
+        min-height: 10vw;
+        max-height: 10vw;
+
+        position: relative;
+        top: -131vh !important;
+        left: 69%;
+
+        z-index: 100;
+
+        background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
+
+    }
+
+
+
+    
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+}
+
+
+.waveHeight{
+    height: 30vh !important;
+}
+
+.aboutMe{
+    position: relative;
+    top: -11vh;
+}
+
+.threeCards{
+    position: relative;
+    
+    top: -7vh;
+    
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -47vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 54%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+    top: -45vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.72rem;
+}
+
+
+
 }
 
 @media (min-width: 1261px) and (max-width: 1360px){
@@ -239,72 +1546,8 @@
         left: 4%;
         
     } 
-}
 
-@media (min-width: 1361px) and (max-width: 1900px){
-    .mainRect{
-        min-width: 4vw;
-        max-width: 4vw;
-        min-height: 100vh;
-        max-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        background-color: rgb(152, 28, 253);
-    }
-    .sidePageSize{
-        min-width: 96vw;
-        max-width: 96vw;
-        min-height: 100vh;
-        max-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 4%;
-        
-    } 
-}
-
-@media (min-width: 1901px) and (max-width: 5000px){
-    .mainRect{
-        min-width: 4vw;
-        max-width: 4vw;
-        min-height: 100vh;
-        max-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        background-color: rgb(152, 28, 253);
-    }
-    .sidePageSize{
-        min-width: 96vw;
-        max-width: 96vw;
-        min-height: 100vh;
-        max-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 4%;
-        
-    } 
-}
-
-.tooltip-inner{
-    background-color: rgb(152, 28, 253) !important;
-    color: #7bf7ff ;
-}
-
-
-.tooltip-arrow{
-    display: none !important;
-}
-
-.tooltip.right .tooltip-arrow {
-    display:none !important; 
-  }
-
-
-
+    
 .skillDetails{
     display: flex;
     min-width: 40vw;
@@ -343,8 +1586,8 @@
     max-height: 16vw;
 
     position: relative;
-    top: -48vh !important;
-    left: 4%;
+    top: -58vh !important;
+    left: 41%;
 
     z-index: 200;
 
@@ -374,3 +1617,459 @@
 
 }
 
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+}
+
+
+.waveHeight{
+    height: 30vh !important;
+}
+
+.aboutMe{
+    position: relative;
+    top: -11vh;
+}
+
+.threeCards{
+    position: relative;
+  
+    top: -7vh;
+    
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -47vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 54%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+    top: -45vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.72rem;
+}
+
+
+}
+
+@media (min-width: 1361px) and (max-width: 1900px){
+    .mainRect{
+        min-width: 4vw;
+        max-width: 4vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: rgb(152, 28, 253);
+    }
+    .sidePageSize{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 4%;
+        
+    } 
+
+    
+.skillDetails{
+    display: flex;
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 15vh !important;
+    left: 13%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 27vw;
+    max-width: 27vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: -14vh !important;
+    left: 58%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 16vw;
+    max-width: 16vw;
+    min-height: 16vw;
+    max-height: 16vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 41%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 10vw;
+    max-width: 10vw;
+    min-height: 10vw;
+    max-height: 10vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+}
+
+
+.waveHeight{
+    height: 30vh !important;
+}
+
+.aboutMe{
+    position: relative;
+    top: -11vh;
+}
+
+.threeCards{
+    position: relative;
+    
+    top: -7vh;
+    
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -47vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 54%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+    top: -45vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.8rem;
+}
+
+
+
+}
+
+@media (min-width: 1901px) and (max-width: 5000px){
+    .mainRect{
+        min-width: 4vw;
+        max-width: 4vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: rgb(152, 28, 253);
+    }
+    .sidePageSize{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 4%;
+        
+    } 
+
+    
+.skillDetails{
+    display: flex;
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 15vh !important;
+    left: 13%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 27vw;
+    max-width: 27vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: -12.5vh !important;
+    left: 58%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 16vw;
+    max-width: 16vw;
+    min-height: 16vw;
+    max-height: 16vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 41%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 10vw;
+    max-width: 10vw;
+    min-height: 10vw;
+    max-height: 10vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+}
+
+
+.waveHeight{
+    height: 30vh !important;
+}
+
+.aboutMe{
+    position: relative;
+    top: -11vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -7vh;
+    
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -47vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 54%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 30vh;
+    top: -45vh !important;
+
+}
+
+.disp2k{
+    font-size: 1.8rem;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+
+.aboutText{
+    font-size: 1.2rem;
+}
+
+}
+
+.tooltip-inner{
+    background-color: rgb(152, 28, 253) !important;
+    color: #7bf7ff ;
+}
+
+
+.tooltip-arrow{
+    display: none !important;
+}
+
+.tooltip.right .tooltip-arrow {
+    display:none !important; 
+  }
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 27vh;
+}
