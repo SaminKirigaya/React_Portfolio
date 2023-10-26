@@ -6,6 +6,9 @@ const Introduction = React.lazy(()=>import('../Components/Introduction'))
 const AboutMe = React.lazy(()=>import('../Components/AboutMe'))
 const Experience = React.lazy(()=>import('../Components/Experience'))
 const Certificate = React.lazy(()=>import('../Components/Certificate'))
+const Services = React.lazy(()=>import('../Components/Services'))
+const Projects = React.lazy(()=>import('../Components/Projects'))
+const Contact = React.lazy(()=>import('../Components/Contact'))
 
 function loadingEffect(){
   return  <div className='container-fluid loader d-flex justify-content-center align-items-center'>
@@ -30,6 +33,10 @@ function Header() {
       <AboutMe />
       <Experience />
       <Certificate />
+      <Services />
+      <Projects />
+      <Contact />
+      
 
 
     </Fragment>

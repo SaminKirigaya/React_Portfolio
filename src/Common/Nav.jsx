@@ -17,6 +17,47 @@ import {motion} from 'framer-motion'
 
 function Nav() {
 
+  const FirstPage = (e)=>{
+    window.scrollTo(0,0)
+  }
+
+
+  const SecondPage = (e)=>{
+    let height = window.innerHeight
+    window.scrollTo(0,height)
+  }
+
+
+  const ThirdPage = (e)=>{
+    let height = window.innerHeight
+    window.scrollTo(0,2*height)
+  }
+
+
+  const FourthPage = (e)=>{
+    let height = window.innerHeight
+    window.scrollTo(0,3*height)
+  }
+
+
+  const FifthPage = (e)=>{
+    let height = window.innerHeight
+    window.scrollTo(0,4*height)
+  }
+
+
+  const SixthPage = (e)=>{
+    let height = window.innerHeight
+    window.scrollTo(0,5*height)
+  }
+
+
+  const SeventhPage = (e)=>{
+    let height = window.innerHeight
+    window.scrollTo(0,6*height)
+  }
+
+
   useEffect(()=>{
     window.$('[data-bs-toggle="tooltip"]').tooltip();
 
@@ -38,31 +79,31 @@ function Nav() {
         </Stack>
       </div>
 
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'3rem'}} data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="HOME" data-bs-placement="right">
+      <motion.div onClick={(e)=>FirstPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'3rem'}} data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" data-bs-title="HOME" data-bs-placement="right">
         <HomeRoundedIcon fontSize='large'/>
       </motion.div>
 
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="ABOUT ME" data-bs-placement="right">
+      <motion.div onClick={(e)=>SecondPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="ABOUT ME" data-bs-placement="right">
         <EmojiEmotionsIcon fontSize='large'/>
       </motion.div>
       
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="MY EXPERIENCE" data-bs-placement="right">
+      <motion.div onClick={(e)=>ThirdPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="MY EXPERIENCE" data-bs-placement="right">
         <SettingsAccessibilityIcon fontSize='large'/>
       </motion.div>
 
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="MY CERTIFICATES" data-bs-placement="right">
+      <motion.div onClick={(e)=>FourthPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="MY CERTIFICATES" data-bs-placement="right">
         <WorkspacePremiumIcon fontSize='large'/>
       </motion.div>
 
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="MY SERVICES" data-bs-placement="right">
+      <motion.div onClick={(e)=>FifthPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="MY SERVICES" data-bs-placement="right">
         <HomeRepairServiceRoundedIcon fontSize='large'/>
       </motion.div>
 
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="PREVIOUS PROJECTS" data-bs-placement="right">
+      <motion.div onClick={(e)=>SixthPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="PREVIOUS PROJECTS" data-bs-placement="right">
         <ReceiptLongIcon fontSize='large'/>
       </motion.div>
 
-      <motion.div whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="CONTACT ME" data-bs-placement="right">
+      <motion.div onClick={(e)=>SeventhPage(e)} whileHover={{scale:[1,1.3]}} transition={{ type:'spring', stiffness:400 }} style={{color:'#7bf7ff',marginTop:'1rem'}} data-bs-toggle="tooltip" data-bs-title="CONTACT ME" data-bs-placement="right">
         <ContactSupportIcon fontSize='large'/>
       </motion.div>
 

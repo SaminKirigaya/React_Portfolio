@@ -1,5 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import {motion,useScroll,useTransform} from 'framer-motion'
 
 import react from '../Assets/Images/UC-a96b9954-87eb-44cf-979e-15d97fd10861.jpg'
 import reactAdv from '../Assets/Images/UC-75f83832-2971-4c8c-9b88-340478beaeb1.jpg'
@@ -9,6 +10,8 @@ import bootcamp from '../Assets/Images/UC-04cc3bd6-20e8-4682-b236-bcd9f11c193b.j
 
 
 function Certificate() {
+  const {scrollY}=useScroll()
+  const changeX= useTransform(scrollY,[2*window.innerHeight, 3*window.innerHeight, 4*window.innerHeight],[-1000, 0, 1000])
     
   return (
     <Fragment>
@@ -17,11 +20,11 @@ function Certificate() {
     
         <div className='sidePageSizeExp' style={{overflowY:'hidden',overflowX:'hidden', zIndex:'-200'}}></div>
         
-        <h4 className='mx-auto addMargin' style={{color:'white'}}>My Certificates</h4>
+        <motion.h4 whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='mx-auto addMargin' style={{color:'white', cursor:'pointer'}}>My Certificates</motion.h4>
         
 
 
-        <div id="carouselExampleIndicators" class="carousel slide carouselPosition mx-auto" data-bs-ride="carousel">
+        <motion.div id="carouselExampleIndicators" class="carousel slide carouselPosition mx-auto" data-bs-ride="carousel" style={{x:changeX}}>
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -51,7 +54,7 @@ function Certificate() {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </motion.div>
         
         
 

@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 370px){
+@media (min-width:319px) and (max-width:358px){
     .mainRect{
         min-width: 13vw;
         max-width: 13vw;
@@ -36,6 +36,404 @@
         
     } 
 
+
+    .sidePageSizeService{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    
+.skillDetails{
+    display: flex;
+    min-width: 76vw;
+    max-width: 76vw;
+    min-height: 56vh;
+    max-height: 56vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 5vh !important;
+    left: 6.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: -10.5vh !important;
+    left: 10%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 126%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -8vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -9vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -5vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -5vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.6rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: 0.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 0vh;
+}
+
+
+.addMargin{
+    position: relative;
+    top:-76vh;
+  }
+
+  .carouselPosition{
+    position: relative;
+    top: -74vh;
+
+    width: 78vw;
+    border: 0.15rem solid #439bff;
+
+  }
+
+
+  .fromTop{
+    position: relative;
+    top:-93vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -94vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 33vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 23vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:0vh;
+    font-size: 0.8rem !important;
+}
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -8vh;
+}
+
+.animSize{
+    width: 78vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 78vw;
+    top: 0vh;
+    left: 4vw;
+
+}
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -39vh;
+    left: 30vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -32vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 0.85rem;
+    
+}
+
+
+
+}
+
+
+@media (min-width: 359px) and (max-width: 370px){
+    .mainRect{
+        min-width: 13vw;
+        max-width: 13vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: rgb(152, 28, 253);
+    }
+    .sidePageSize{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 13%;
+     
+    }  
+
+    .sidePageSizeExp{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
 
 
     
@@ -221,6 +619,147 @@
   }
 
 
+  .fromTop{
+    position: relative;
+    top:-90vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -89vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 33vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 24vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-3vh;
+    font-size: 0.8rem !important;
+}
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -8vh;
+}
+
+.animSize{
+    width: 78vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 78vw;
+    top: 0vh;
+    left: 4vw;
+
+}
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -39vh;
+    left: 30vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -32vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
 
 
 }
@@ -261,6 +800,22 @@
         position: relative;
         left: 0%;
         clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 87vw;
+        max-width: 87vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
         background-color: rgb(152, 28, 253)
         
@@ -450,6 +1005,149 @@
   }
 
 
+  
+  .fromTop{
+    position: relative;
+    top:-92vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -91vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 33vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 24vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-3vh;
+    font-size: 0.8rem !important;
+}
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -6vh;
+}
+
+.animSize{
+    width: 78vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 78vw;
+    top: 0vh;
+    left: 4vw;
+
+}
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -43vh;
+    left: 30vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -37vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
+
 }
 
 @media (min-width: 390px) and (max-width: 410px){
@@ -486,6 +1184,22 @@
         position: relative;
         left: 0%;
         clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
         background-color: rgb(152, 28, 253)
         
@@ -676,12 +1390,157 @@
   }
 
 
+   
+  .fromTop{
+    position: relative;
+    top:-88vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -87vh;
 }
 
 
 
 
-@media (min-width: 410px) and (max-width: 539px){
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 33vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 24vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-3vh;
+}
+
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -1vh;
+}
+
+.animSize{
+    width: 78vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 78vw;
+    top: 0vh;
+    left: 4vw;
+
+}
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -31vh;
+    left: 30vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -29vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
+
+}
+
+
+
+
+@media (min-width: 410px) and (max-width: 419px){
     .mainRect{
         min-width: 14vw;
         max-width: 14vw;
@@ -719,6 +1578,23 @@
         background-color: rgb(152, 28, 253)
         
     } 
+
+
+    .sidePageSizeService{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
 
 
            
@@ -905,8 +1781,547 @@
   }
 
 
+     
+  .fromTop{
+    position: relative;
+    top:-84vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -84vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 33vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 25vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-3vh;
+}
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -1vh;
+}
+
+.animSize{
+    width: 78vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 78vw;
+    top: 0vh;
+    left: 4vw;
 
 }
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -31vh;
+    left: 30vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -29vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 420px) and (max-width: 539px){
+    .mainRect{
+        min-width: 14vw;
+        max-width: 14vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: rgb(152, 28, 253);
+    }
+    .sidePageSize{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 14%;
+       
+    }  
+
+
+    .sidePageSizeExp{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 86vw;
+        max-width: 86vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+
+           
+.skillDetails{
+    display: flex;
+    min-width: 76vw;
+    max-width: 76vw;
+    min-height: 45vh;
+    max-height: 45vh;
+    border: 0.15rem solid rgb(152, 28, 253);
+    position: relative;
+    top: 8vh !important;
+    left: 6.5%;
+    border-radius: 0.7rem;
+    background-color: #f5f5f6;
+    z-index: 400;
+    padding: 2rem;
+}
+
+.introPageImgBox{
+    display: flex;
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 65vh;
+    max-height: 65vh;
+   
+    position: relative;
+    top: -6.5vh !important;
+    left: 10%;
+   
+    z-index: 300;
+}
+
+.firstBall{
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    min-height: 35vw;
+    max-height: 35vw;
+
+    position: relative;
+    top: -58vh !important;
+    left: 126%;
+
+    z-index: 200;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+.secondBall{
+
+    display: flex;
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+
+    position: relative;
+    top: -131vh !important;
+    left: 69%;
+
+    z-index: 100;
+
+    background: linear-gradient(45deg, rgb(152, 28, 253),rgb(193, 118, 255), rgb(224, 193, 250));
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+
+}
+
+
+
+
+.topWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+}
+
+.waveHeight{
+    height: 18vh;
+}
+
+.aboutMe{
+    position: relative;
+    top: -7vh;
+}
+
+.threeCards{
+    position: relative;
+   
+    top: -7vh;
+    
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+}
+
+
+.aboutCards{
+    position: relative;
+    background-color: #f5f5f6;
+    top: -5vh;
+    border: 0.13rem solid rgb(152, 28, 253);
+    min-width: 72vw;
+    max-width: 72vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 1.25rem;
+    left: 9%;
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.reverseWave{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 18vh;
+    top: -4vh !important;
+
+}
+
+.aboutText{
+    font-size: 0.72rem;
+}
+
+.justIt{
+    text-align: justify !important;
+}
+
+
+
+
+.upperCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.giveMargin{
+    margin-top: -1.5rem;
+}
+
+.lowerCut{
+    display: block;
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    position: relative;
+    top: 1vh;
+}
+
+
+.addMargin{
+    position: relative;
+    top:-76vh;
+  }
+
+  .carouselPosition{
+    position: relative;
+    top: -74vh;
+
+    width: 78vw;
+    border: 0.15rem solid #439bff;
+
+  }
+
+
+     
+  .fromTop{
+    position: relative;
+    top:-91vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -92vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 33vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 23vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-1vh;
+}
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -8vh;
+}
+
+.animSize{
+    width: 78vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 78vw;
+    top: -6vh;
+    left: 4vw;
+
+}
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -47vh;
+    left: 30vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -43vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
+
+
+}
+
+
 
 @media (min-width: 540px) and (max-width: 760px){
     .mainRect{
@@ -941,6 +2356,22 @@
         position: relative;
         left: 0%;
         clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
         background-color: rgb(152, 28, 253)
         
@@ -1129,6 +2560,151 @@
 
   }
 
+     
+  .fromTop{
+    position: relative;
+    top:-90vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -90vh;
+}
+
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 32vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 35vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 24vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-3vh;
+}
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -4vh;
+}
+
+.animSize{
+    width: 75vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 75vw;
+    top: -3vh;
+    left: 8vw;
+
+}
+
+
+.twoDetailCards{
+    width: 50vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -57vh;
+    left: 34vw;
+    
+}
+
+
+.cardSize{
+    width: 50vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -51vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
+
+
 
 }   
 
@@ -1169,6 +2745,23 @@
         background-color: rgb(152, 28, 253)
         
     } 
+
+
+    .sidePageSizeService{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
 
 
     .skillDetails{
@@ -1353,6 +2946,150 @@
 
 
 
+  .fromTop{
+    position: relative;
+    top:-74vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -72vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 26vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 35vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 31vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: 3vh;
+}
+
+.animSize{
+    width: 50vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 50vw;
+    top: 5vh;
+    left: 8vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -26vh;
+    left: 34vw;
+    
+}
+
+
+.cardSize{
+    width: 24vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -32vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
+
+
+
 }
 
 
@@ -1390,6 +3127,22 @@
         position: relative;
         left: 0%;
         clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
         background-color: rgb(152, 28, 253)
         
@@ -1574,6 +3327,149 @@
   }
 
 
+  
+  .fromTop{
+    position: relative;
+    top:-74vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -72vh;
+}
+
+
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 26vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 35vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 31vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: 3vh;
+}
+
+.animSize{
+    width: 50vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 50vw;
+    top: 5vh;
+    left: 8vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -26vh;
+    left: 34vw;
+    
+}
+
+
+.cardSize{
+    width: 24vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -27vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+.titleSize{
+    font-size: 1rem;
+    
+}
 
 
 }
@@ -1618,6 +3514,25 @@
         
     } 
 
+
+    .sidePageSizeService{
+        min-width: 91vw;
+        max-width: 91vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    
+    
 
     
     .skillDetails{
@@ -1800,6 +3715,147 @@
 
   }
 
+  
+
+.fromTop{
+    position: relative;
+    top:-74vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -72vh;
+}
+
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 76vw;
+    height: 26vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 35vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 32vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: 3vh;
+}
+
+.animSize{
+    width: 50vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 50vw;
+    top: 5vh;
+    left: 8vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -26vh;
+    left: 34vw;
+    
+}
+
+
+.cardSize{
+    width: 24vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -27vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+
 
 }
 
@@ -1843,6 +3899,21 @@
         
     } 
 
+
+    .sidePageSizeService{
+        min-width: 94.5vw;
+        max-width: 94.5vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
 
         
     .skillDetails{
@@ -2032,6 +4103,155 @@
 
   }
 
+
+
+  
+
+.fromTop{
+    position: relative;
+    top:-80vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -78vh;
+}
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 60vw;
+    height: 40vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 50vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 15vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -5vh;
+}
+
+.animSize{
+    width: 24vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 24vw;
+    top: -2vh;
+    left: 13vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -42vh;
+    left: 37vw;
+    
+}
+
+
+.cardSize{
+    width: 17vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -36vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titleSize{
+    font-size: 1rem;
+    
+}
+
 }
 
 
@@ -2070,6 +4290,23 @@
         position: relative;
         left: 0%;
         clip-path: polygon(0 0, 75% 0%, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    .sidePageSizeService{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        
 
         background-color: rgb(152, 28, 253)
         
@@ -2260,6 +4497,153 @@
   }
 
 
+  
+
+.fromTop{
+    position: relative;
+    top:-80vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -78vh;
+}
+
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 60vw;
+    height: 40vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 50vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 15vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -5vh;
+}
+
+.animSize{
+    width: 24vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 24vw;
+    top: -2vh;
+    left: 13vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -49vh;
+    left: 37vw;
+    
+}
+
+
+.cardSize{
+    width: 17vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -47vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+
+
 }
 
 @media (min-width: 1361px) and (max-width: 1900px){
@@ -2302,6 +4686,24 @@
         background-color: rgb(152, 28, 253)
         
     } 
+
+
+    .sidePageSizeService{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
 
     
 .skillDetails{
@@ -2487,6 +4889,155 @@
 
   }
 
+
+  
+
+.fromTop{
+    position: relative;
+    top:-80vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -78vh;
+}
+
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 60vw;
+    height: 40vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 50vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 15vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -5vh;
+}
+
+.animSize{
+    width: 24vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 24vw;
+    top: -2vh;
+    left: 13vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -49vh;
+    left: 37vw;
+    
+}
+
+
+.cardSize{
+    width: 17vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -47vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
 }
 
 
@@ -2525,6 +5076,23 @@
         position: relative;
         left: 0%;
         clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+
+        background-color: rgb(152, 28, 253)
+        
+    } 
+
+
+    
+    .sidePageSizeService{
+        min-width: 96vw;
+        max-width: 96vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0%;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
         background-color: rgb(152, 28, 253)
         
@@ -2720,6 +5288,157 @@
   }
 
 
+  
+
+.fromTop{
+    position: relative;
+    top:-80vh;
+    margin-bottom: 1rem
+}  
+
+.rowPosition{
+    position: relative;
+    top: -78vh;
+}
+
+
+
+
+
+.topDesign{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 0, 100% 50%, 100% 0);
+}  
+
+.positionTitleProjects{
+    position: relative;
+    top: 1vh;
+    color: rgb(152, 28, 253);
+}
+
+
+.carouselPositionProjects{
+    width: 60vw;
+    height: 40vh;
+    position: relative;
+    top: 2vh;
+}
+
+
+.imageHeight{
+    height: 50vh;
+    object-fit: fill;
+}
+
+
+.bottomDesign{
+    position: relative;
+    top: 15vh;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(152, 28, 253);
+    clip-path: polygon(0 100%, 100% 100%, 0% 50%);
+}
+
+
+.bluring{
+    filter: blur(1px);
+}
+
+
+.responsiveProjectTitle{
+    background-color: rgba(255, 255, 255, 0.623) !important;
+    padding: 1rem !important;
+    border: 0.15rem solid rgb(152, 28,253) !important;
+    border-radius: 1.16rem !important;
+    position: relative;
+    top:-9vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.upperWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: 0%;
+    
+}
+
+.upperwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+.titlePosition{
+    position: relative;
+    top: -5vh;
+}
+
+.animSize{
+    width: 24vw;
+}
+
+.animBoxSet{
+    position: relative;
+    width: 24vw;
+    top: -2vh;
+    left: 13vw;
+
+}
+
+
+.twoDetailCards{
+    width: 47vw;
+    min-height: 45vh !important;
+    position: relative;
+    top: -49vh;
+    left: 37vw;
+    
+}
+
+
+.cardSize{
+    width: 17vw !important;
+  
+}
+
+
+
+.bottomWave{
+    width: 100%;
+    height:25vh;
+    position: relative;
+    top: -47vh;
+}
+
+.bottomwaveSize{
+    width:100%;
+    height:25vh;
+    object-fit: fill;
+}
+
+
+
+
+
+
+
+
 }
 
 .tooltip-inner{
@@ -2757,3 +5476,8 @@
     opacity: .5;
     transition: opacity .6s ease;
   }
+
+
+
+
+

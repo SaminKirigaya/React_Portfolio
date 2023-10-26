@@ -1,6 +1,6 @@
-import React, { Fragment, useEffect, Suspense } from 'react'
+import React, { Fragment, useState, useEffect, Suspense } from 'react'
 import Typed from 'typed.js';
-import {motion, useAnimation} from 'framer-motion'
+import {motion, useAnimation, useScroll, useTransform} from 'framer-motion'
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailIcon from '@mui/icons-material/Mail';
@@ -18,6 +18,10 @@ function loadingEffect(){
 }
 
 function Introduction() {
+
+  const {scrollY} = useScroll()
+  const [volatileFont, setFontSize] = useState('')
+
 
   const controls = useAnimation();
   const controls2 = useAnimation();
@@ -51,9 +55,18 @@ function Introduction() {
     mainY2.push(y)
   });
 
+
+  const yShift = useTransform(scrollY, [0,window.innerHeight], [0,-1000])
   
 
   useEffect(() => {
+
+    if(window.innerWidth>319 && window.innerWidth<359){
+      setFontSize('0.65rem')
+    }else{
+      setFontSize('0.75rem')
+    }
+
     controls.start({
       
       scale:[0.3,1,0.3],
@@ -95,24 +108,24 @@ function Introduction() {
     <Fragment>
       <div className='sidePageSize' style={{overflowY:'hidden',overflowX:'hidden'}}> {/* base box which will next time be renamed with same class properties but different backgroundcol and name in different component.*/}
 
-        <div className='skillDetails d-flex justify-content-center align-items-center flex-column'>
+        <motion.div animate={{x:[-1000,0], transition:{duration: 0.8, type:'spring', stiffness:350}}} whileHover={{scale: [1,1.1],transition:{duration:1, type:'spring', stiffness:350 }}} className='skillDetails d-flex justify-content-center align-items-center flex-column' style={{cursor:'pointer', x:yShift}}>
           <p className='mx-auto'>Hello_&#128151;</p>
           <p style={{fontSize:'1.5rem'}} className='text-center'>I'm <span className='typing-animation' style={{fontWeight:'bold',color:'rgb(152, 28, 253)'}}></span></p>
           <p className='text-center'>I Believe Coding Is Like An Artwork. So, When I Code I Try To Make It As Precise As Possible &#128151;</p>
           <p>
           
-          <motion.button whileHover={{scale:[1,1.3],borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
-          style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', marginRight:'1rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
+          <motion.a href="https://github.com/SaminKirigaya" whileHover={{scale:[1,1.3],borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+          style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: volatileFont, marginRight:'1rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
             Github <GitHubIcon fontSize='small' />
-          </motion.button>
+          </motion.a>
 
-          <motion.button whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
-          style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
+          <motion.a href="https://www.facebook.com/samin.arnob.3" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+          style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: volatileFont, backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
             Let's Talk <MailIcon fontSize='small' />
-          </motion.button>
+          </motion.a>
 
           </p>
-        </div>
+        </motion.div>
 
 
         <motion.div animate={{scale:[1.1,1,1.1]}} transition={{duration:1.8,repeat:'infinity'}} className='introPageImgBox d-flex justify-content-center align-items-center flex-column'>

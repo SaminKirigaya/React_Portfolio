@@ -1,6 +1,8 @@
 import React, { Suspense, Fragment , useState, useEffect } from 'react'
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import {motion, useScroll, useTransform} from 'framer-motion'
+
 
 import html from '../Assets/Images/html.png'
 import bs from '../Assets/Images/b5.png'
@@ -14,9 +16,14 @@ import mongo from '../Assets/Images/mongo.png'
 import redux from '../Assets/Images/redux.jpg'
 
 function Experience() {
+
+    const {scrollY} = useScroll()
     const [widthVol, setWidthVol] = useState('')
     const [heightVol, setHeightVol] = useState('')
     const [fontVol, setFontVol] = useState('')
+
+    const fromUp = useTransform(scrollY, [window.innerHeight, 2*window.innerHeight, 3*window.innerHeight], [-500, 0, -500])
+    const fromDown = useTransform(scrollY, [window.innerHeight, 2*window.innerHeight, 3*window.innerHeight], [500, 0, 500])
 
     useEffect(()=>{
         if(window.innerWidth<540){
@@ -38,23 +45,23 @@ function Experience() {
         }
         else{
             setWidthVol('10rem')
-            
+            setFontVol('0.85rem')
         }
     },[])
   return (
 
     <Fragment>
-    <div className='sidePageSize' style={{overflowY:'hidden',overflowX:'hidden', zIndex:'-200'}}>
+    <div className='sidePageSize' style={{overflowY:'hidden',overflowX:'hidden'}}>
     
-    <div className='upperCut'>
+    <div className='upperCut' style={{zIndex:'-200'}}>
     </div>
     
-    <h4 className='mx-auto giveMargin' style={{color:'rgb(152, 28, 253)'}}>Experienced In</h4>
+    <motion.h4 whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='mx-auto giveMargin' style={{color:'rgb(152, 28, 253)', cursor:'pointer'}}>Experienced In</motion.h4>
 
     <div className='row row-cols-2 row-cols-md-5 d-flex justify-content-center mx-auto' style={{marginTop:'1rem'}}>
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -63,13 +70,13 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>HTML</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -78,7 +85,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>BOOTSTRAP</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -87,7 +94,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -96,7 +103,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>CSS</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -104,7 +111,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem',y:fromUp}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -113,7 +120,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>JAVASCRIPT</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -123,7 +130,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -132,7 +139,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>NODE JS</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -141,7 +148,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem',y:fromDown}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -150,7 +157,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>EXPRESS JS</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -161,7 +168,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -170,7 +177,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>REACT</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -180,7 +187,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -189,7 +196,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>REDUX</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -197,7 +204,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -206,7 +213,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>MYSQL</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -214,7 +221,7 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <div class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem'}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
         <div class="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
@@ -223,7 +230,7 @@ function Experience() {
         <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>MONGO DB</p>
         
         </div>
-        </div>
+        </motion.div>
     </div>
 
 
@@ -235,7 +242,7 @@ function Experience() {
 
 
 
-    <div className='lowerCut'>
+    <div className='lowerCut' style={{zIndex:'-200'}}>
     </div>
 
     
