@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Latest Portfolio With React & Framer Motion.
+This project, is for building a Latest Portfolio server with live animation and response.
+Here, we are not going to use old style css and js to make realistic animation and effects instead we will add framer motion to do them.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Demo Design
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_15 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/4ae4d340-98fd-4604-9236-030ea049203a)
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_23 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/276cf92e-c8f4-4690-8649-cf9a8a8f589b)
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_30 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/72c4342c-0716-40dc-a28f-c9b72028b4b1)
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_36 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/ff3509d8-49b6-468e-8aca-1b7dcba2999d)
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_45 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/26e47b2c-20ae-450f-a44b-f8a0318b94d0)
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_52 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/1e7c4eab-95c5-48e9-8769-f71d16f34990)
+![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_13_06 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/70ae8613-21c5-43ef-bdde-35314ff20020)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Complete Responsive.
+- Android and Personal Computer Views Are Different.
+- Lag Free.
+- Scroll Animation With Framer Motion.
+- Hover Animations Are More Realistic And Physics Applied On Them.
 
-### `npm run eject`
+## Lessons Learned
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- react Js
+- Html
+- Bootstrap
+- Css
+- Vanilla Js
+- React Framer Motion
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Run Locally
 
-## Learn More
+Clone the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+    https://github.com/SaminKirigaya/React_Portfolio.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  cd my-project
+  //your project saving directory name
+```
 
-### Analyzing the Bundle Size
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  npm install
+```
 
-### Making a Progressive Web App
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm run start
+```
 
-### Advanced Configuration
+## Cautions And Optimization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Kindly remember that all the images used in here not allowed to be used in your site or any application or software. They are copyright issued.
 
-### Deployment
+- The whole site runs temporaryly at my localhost so when you are willing to use the code and move your images in the working consition set them according to your server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- You are not allowed to use any of the certifications as demo or design in your page. 
 
-### `npm run build` fails to minify
+- Kindly give me a credit if you are using this design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Support
+
+For support, saminyeasararnob@gmail.com 
+
