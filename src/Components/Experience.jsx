@@ -61,13 +61,13 @@ function Experience() {
     <div className='row row-cols-2 row-cols-md-5 d-flex justify-content-center mx-auto' style={{marginTop:'1rem'}}>
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Html" src={html} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>HTML</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>HTML</p>
         
         </div>
         </motion.div>
@@ -76,13 +76,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Bootstrap" src={bs} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>BOOTSTRAP</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>BOOTSTRAP</p>
         
         </div>
         </motion.div>
@@ -94,13 +94,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Css" src={css} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>CSS</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>CSS</p>
         
         </div>
         </motion.div>
@@ -111,13 +111,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem',y:fromUp}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem',y:fromUp}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Js" src={js} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>JAVASCRIPT</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>JAVASCRIPT</p>
         
         </div>
         </motion.div>
@@ -130,13 +130,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Node Js" src={node} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>NODE JS</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>NODE JS</p>
         
         </div>
         </motion.div>
@@ -148,13 +148,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem',y:fromDown}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem',y:fromDown}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Express JS" src={express} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>EXPRESS JS</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>EXPRESS JS</p>
         
         </div>
         </motion.div>
@@ -168,13 +168,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="React Js" src={react} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>REACT</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>REACT</p>
         
         </div>
         </motion.div>
@@ -187,13 +187,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="Redux" src={redux} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>REDUX</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>REDUX</p>
         
         </div>
         </motion.div>
@@ -204,13 +204,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="MySql" src={sql} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>MYSQL</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>MYSQL</p>
         
         </div>
         </motion.div>
@@ -221,13 +221,13 @@ function Experience() {
 
 
     <div className='col mb-1 mb-md-2'>
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
+        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromDown}}>
         
-        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+        <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
         <Avatar alt="MongoDB" src={mongo} />
         </Stack></p>
-        <p class="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>MONGO DB</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>MONGO DB</p>
         
         </div>
         </motion.div>

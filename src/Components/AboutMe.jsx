@@ -88,14 +88,14 @@ function AboutMe() {
 
 
           <div className='col row-cols-md-2 d-flex justify-content-end mb-1' style={{height:cardHeight}}>
-          <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '10rem',backgroundColor: '#f5f5f6', cursor:'pointer',
+          <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '10rem',backgroundColor: '#f5f5f6', cursor:'pointer',
           border: '0.13rem solid rgb(152, 28, 253)',borderRadius:'1rem', x:yShift2}}>
         
-          <div class="card-body  d-flex flex-column justify-content-center align-items-center">
-          <p class="card-title mb-0"><Stack direction="row" spacing={2}>
+          <div className="card-body  d-flex flex-column justify-content-center align-items-center">
+          <p className="card-title mb-0"><Stack direction="row" spacing={2}>
           <Avatar alt="Experience" src={exp} />
           </Stack></p>
-          <p class="card-text mt-0 mb-0" style={{fontSize:volatileSize2, fontWeight:'bold', color:'rgb(152, 28, 253)'}}>Experience</p>
+          <p className="card-text mt-0 mb-0" style={{fontSize:volatileSize2, fontWeight:'bold', color:'rgb(152, 28, 253)'}}>Experience</p>
           <p className='card-text mt-0 text-center' style={{fontSize:volatileSize2, color:'rgb(152, 28, 253)'}}>+6 Years</p>
             
           </div>
@@ -105,14 +105,14 @@ function AboutMe() {
 
 
           <div className='col row-cols-md-2 d-flex justify-content-start mb-2' style={{height:cardHeight}}>
-            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '10rem',backgroundColor: '#f5f5f6', cursor:'pointer',
+            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '10rem',backgroundColor: '#f5f5f6', cursor:'pointer',
             border: '0.13rem solid rgb(152, 28, 253)',borderRadius:'1rem', x:yShift3}}>
           
-            <div class="card-body  d-flex flex-column justify-content-center align-items-center">
-            <p class="card-title mb-0"><Stack direction="row" spacing={2}>
+            <div className="card-body  d-flex flex-column justify-content-center align-items-center">
+            <p className="card-title mb-0"><Stack direction="row" spacing={2}>
             <Avatar alt="Projects" src={work} />
             </Stack></p>
-            <p class="card-text mt-0 mb-0" style={{fontSize:volatileSize2, fontWeight:'bold', color:'rgb(152, 28, 253)'}}>Projects</p>
+            <p className="card-text mt-0 mb-0" style={{fontSize:volatileSize2, fontWeight:'bold', color:'rgb(152, 28, 253)'}}>Projects</p>
             <p className='card-text mt-0 text-center' style={{fontSize:volatileSize2, color:'rgb(152, 28, 253)'}}>+20 Completed</p>
               
             </div>
@@ -121,14 +121,14 @@ function AboutMe() {
 
 
             <div className='col row-cols-md-2 d-flex justify-content-end mb-1' style={{height:cardHeight}}>
-            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '10rem',backgroundColor: '#f5f5f6', cursor:'pointer',
+            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '10rem',backgroundColor: '#f5f5f6', cursor:'pointer',
             border: '0.13rem solid rgb(152, 28, 253)',borderRadius:'1rem', x:yShift4}}>
           
-            <div class="card-body  d-flex flex-column justify-content-center align-items-center">
-            <p class="card-title mb-0"><Stack direction="row" spacing={2}>
+            <div className="card-body  d-flex flex-column justify-content-center align-items-center">
+            <p className="card-title mb-0"><Stack direction="row" spacing={2}>
             <Avatar alt="Professional At" src={prof} />
             </Stack></p>
-            <p class="card-text mt-0 mb-0" style={{fontSize:volatileSize2, fontWeight:'bold', color:'rgb(152, 28, 253)'}}>Professional At</p>
+            <p className="card-text mt-0 mb-0" style={{fontSize:volatileSize2, fontWeight:'bold', color:'rgb(152, 28, 253)'}}>Professional At</p>
             <p className='card-text mt-0 text-center' style={{fontSize:volatileSize2, color:'rgb(152, 28, 253)'}}>MERN Stack</p>
               
             </div>

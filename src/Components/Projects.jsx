@@ -35,8 +35,8 @@ function Projects() {
 
 
 
-    <motion.div id="carouselExampleIndicators3" class="carousel slide carouselPositionProjects mx-auto" data-bs-ride="carousel" style={{x:changeX}}>
-        <div class="carousel-indicators">
+    <motion.div id="carouselExampleIndicators3" className="carousel slide carouselPositionProjects mx-auto" data-bs-ride="carousel" style={{x:changeX}}>
+        <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -53,143 +53,143 @@ function Projects() {
           <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="13" aria-label="Slide 14"></button>
         
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={project1} class="d-block w-100 imageHeight bluring" alt="..."/>
-            <div class="carousel-caption d-flex">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={project1} className="d-block w-100 imageHeight bluring" alt="..."/>
+            <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Modern Personal Portfolio Design With React, Css & Framer Motion. &nbsp;<motion.a href="https://github.com/SaminKirigaya/React_Portfolio" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Modern Personal Portfolio Design With React, Css & Framer Motion. &nbsp;<motion.a href="https://github.com/SaminKirigaya/React_Portfolio" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={project2} class="d-block w-100 imageHeight  bluring" alt="..." />
-            <div class="carousel-caption d-flex">
+          <div className="carousel-item">
+            <img src={project2} className="d-block w-100 imageHeight  bluring" alt="..." />
+            <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Online Code Editor With Html5, Js, Bootstrap. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Online_Frontend_Code_Editor_v3.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Online Code Editor With Html5, Js, Bootstrap. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Online_Frontend_Code_Editor_v3.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={project3} class="d-block w-100 imageHeight bluring" alt="..." />
-            <div class="carousel-caption d-flex">
+          <div className="carousel-item">
+            <img src={project3} className="d-block w-100 imageHeight bluring" alt="..." />
+            <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Video Sharing Platform FrontEnd With React, Redux, Framer Motion. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Video_Sharing_Platform_Forum_FrontEnd_REACT_REDUX_FRAMER" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Video Sharing Platform FrontEnd With React, Redux, Framer Motion. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Video_Sharing_Platform_Forum_FrontEnd_REACT_REDUX_FRAMER" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
           </div>
-          <div class="carousel-item">
-          <img src={project4} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+          <div className="carousel-item">
+          <img src={project4} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Video Sharing Platform BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Video_Sharing_Platform_Backend_MERN_Stack" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Video Sharing Platform BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Video_Sharing_Platform_Backend_MERN_Stack" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project5} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project5} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Messaging Server Like Whats App FrontEnd With React Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Chat_Web_Server_FrontEnd_REACT_JS" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Messaging Server Like Whats App FrontEnd With React Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Chat_Web_Server_FrontEnd_REACT_JS" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project6} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project6} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Messaging Server Like Whats App BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Chat_Web_Server_BackEnd_RestApi_with_NODE_EXPRESS" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Messaging Server Like Whats App BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Chat_Web_Server_BackEnd_RestApi_with_NODE_EXPRESS" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project7} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project7} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Forum Server FrontEnd With React Js, Bootstrap. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Forum_FrontEnd_With_React_Js__NODE_JS__OPTIMIZED-" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Forum Server FrontEnd With React Js, Bootstrap. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Forum_FrontEnd_With_React_Js__NODE_JS__OPTIMIZED-" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project8} class="d-block w-100 imageHeight  bluring" alt="..." />
+         <div className="carousel-item">
+          <img src={project8} className="d-block w-100 imageHeight  bluring" alt="..." />
           <div class="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Forum Server BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Forum_Backend_REST_API_Converting_To_NODE_JS" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Forum Server BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Forum_Backend_REST_API_Converting_To_NODE_JS" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project9} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project9} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Ecommerce Site FrontEnd With React, Bootstrap, Css & Framer Motion. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Ecommerce_web_app_FrontEnd_with_REACT_JS_-STRIPE_PAY-" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Ecommerce Site FrontEnd With React, Bootstrap, Css & Framer Motion. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Ecommerce_web_app_FrontEnd_with_REACT_JS_-STRIPE_PAY-" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project10} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project10} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Ecommerce Site With Stripe Payment BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Ecommerce_web_BackEnd_rest_api_with_NODE_JS_-STRIPE_PAY-" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Ecommerce Site With Stripe Payment BackEnd With Node, Express Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Ecommerce_web_BackEnd_rest_api_with_NODE_JS_-STRIPE_PAY-" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project11} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project11} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Restaurant Website FrontEnd With HTML, Css, Bootstrap, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Restaurant_Web_Design_With_Es7_Bootstrap5.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Restaurant Website FrontEnd With HTML, Css, Bootstrap, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Restaurant_Web_Design_With_Es7_Bootstrap5.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project12} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project12} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Personal Portfolio Conversion With Basic HTML, Css, Bootstrap, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/My_Personal_Portfolio_.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Personal Portfolio Conversion With Basic HTML, Css, Bootstrap, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/My_Personal_Portfolio_.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
          </div>
-         <div class="carousel-item">
-          <img src={project13} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project13} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Basic Simple Portfolio Design With HTML, Css, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/simple-looking-portfolio.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Basic Simple Portfolio Design With HTML, Css, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/simple-looking-portfolio.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
             </div>
           
          </div>
-         <div class="carousel-item">
-          <img src={project14} class="d-block w-100 imageHeight  bluring" alt="..." />
-          <div class="carousel-caption d-flex">
+         <div className="carousel-item">
+          <img src={project14} className="d-block w-100 imageHeight  bluring" alt="..." />
+          <div className="carousel-caption d-flex">
                 
-                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Custom Cool Login & Reg Page Design With HTML, Css, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Frontenddesign_for_creative_login_reg_form.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+                <p className='mx-auto text-center responsiveProjectTitle' style={{color:'rgb(152, 28, 253)', fontWeight:'bold'}}>Custom Cool Login & Reg Page Design With HTML, Css, Js. &nbsp;<motion.a href="https://github.com/SaminKirigaya/Frontenddesign_for_creative_login_reg_form.github.io" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
                 style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: '.75rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
                   View
                 </motion.a></p>
@@ -198,13 +198,13 @@ function Projects() {
          </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </motion.div>
         

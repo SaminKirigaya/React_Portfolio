@@ -49,15 +49,15 @@ function Contact() {
 
 
         <div className='col'>
-            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card cardSize" style={{ borderRadius:'1rem', cursor:'pointer', backgroundColor:'rgb(152 28 253 / 76%)', color:'white', y:changeFromTop}}>
+            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card cardSize" style={{ borderRadius:'1rem', cursor:'pointer', backgroundColor:'rgb(152 28 253 / 76%)', color:'white', y:changeFromTop}}>
             
-            <div class="card-body">
-            <h5 class="card-title mx-auto text-center d-flex flex-row justify-content-center align-items-center titleSize">
+            <div className="card-body">
+            <h5 className="card-title mx-auto text-center d-flex flex-row justify-content-center align-items-center titleSize">
             <Stack direction="row" spacing={2}>
             <Avatar alt="Experience" src={location} />
             </Stack>&nbsp;
             My Location</h5>
-            <p class="card-text" style={{fontSize:volatileFont}}><b>Permanent</b> : 33/2, North ManikNagar, Dhaka-1203, Bangladesh<br></br><b>Temporary</b> : Octra Moor, Rajshahi, Bangladesh</p>
+            <p className="card-text" style={{fontSize:volatileFont}}><b>Permanent</b> : 33/2, North ManikNagar, Dhaka-1203, Bangladesh<br></br><b>Temporary</b> : Octra Moor, Rajshahi, Bangladesh</p>
             
             </div>
             </motion.div>
@@ -66,15 +66,15 @@ function Contact() {
 
 
         <div className='col'>
-            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card cardSize" style={{ borderRadius:'1rem', cursor:'pointer', backgroundColor:'rgb(152 28 253 / 76%)', color:'white', y:changeFromBottom}}>
+            <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card cardSize" style={{ borderRadius:'1rem', cursor:'pointer', backgroundColor:'rgb(152 28 253 / 76%)', color:'white', y:changeFromBottom}}>
             
-            <div class="card-body">
-            <h5 class="card-title mx-auto text-center d-flex flex-row justify-content-center align-items-center titleSize">
+            <div className="card-body">
+            <h5 className="card-title mx-auto text-center d-flex flex-row justify-content-center align-items-center titleSize">
             <Stack direction="row" spacing={2}>
             <Avatar alt="Experience" src={contactIcon} />
             </Stack>&nbsp;
             My Contacts</h5>
-            <p class="card-text" style={{fontSize:volatileFont}}><b>Mobile</b> : (+880)1856161055, (+880)1576545897<br></br><b>Gmail</b> : saminyeasararnob@gmail.com || arnobsamin95@gmail.com</p>
+            <p className="card-text" style={{fontSize:volatileFont}}><b>Mobile</b> : (+880)1856161055, (+880)1576545897<br></br><b>Gmail</b> : saminyeasararnob@gmail.com || arnobsamin95@gmail.com</p>
             
             </div>
             </motion.div>

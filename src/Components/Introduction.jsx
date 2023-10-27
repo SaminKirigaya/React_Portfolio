@@ -114,12 +114,12 @@ function Introduction() {
           <p className='text-center'>I Believe Coding Is Like An Artwork. So, When I Code I Try To Make It As Precise As Possible &#128151;</p>
           <p>
           
-          <motion.a href="https://github.com/SaminKirigaya" whileHover={{scale:[1,1.3],borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+          <motion.a href="https://github.com/SaminKirigaya" whileHover={{scale:[1,1.3],borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
           style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: volatileFont, marginRight:'1rem', backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
             Github <GitHubIcon fontSize='small' />
           </motion.a>
 
-          <motion.a href="https://www.facebook.com/samin.arnob.3" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" class="btn btn-primary"
+          <motion.a href="https://www.facebook.com/samin.arnob.3" whileHover={{scale:[1,1.2], borderRadius:'0.3rem'}} transition={{ type:'spring', stiffness:400 }} type="button" className="btn btn-primary"
           style={{ paddingTop : '.25rem', paddingBottom : '.25rem' , paddingLeft : '.5rem', paddingRight : '.5rem', fontSize: volatileFont, backgroundColor:'rgb(152, 28, 253)', color:'white', border: 'none', borderRadius:'0rem'}}>
             Let's Talk <MailIcon fontSize='small' />
           </motion.a>

@@ -35,10 +35,10 @@ function Services() {
             <div className='row row-cols-1 row-cols-md-2 rowPosition d-flex justify-content-center ps-3 pe-3'>
 
                 <div className='col d-flex justify-content-end mb-2'>
-                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
+                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
                    
-                    <div class="card-body">
-                    <p class="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
+                    <div className="card-body">
+                    <p className="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
                     <Stack direction="row" spacing={2}>
                     <Avatar alt="Express JS" src={sleep} />
                     </Stack> &nbsp; 24/7 Active Service.
@@ -51,10 +51,10 @@ function Services() {
 
 
                 <div className='col d-flex justify-content-start mb-2'>
-                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
+                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
                    
-                    <div class="card-body">
-                    <p class="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
+                    <div className="card-body">
+                    <p className="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
                     <Stack direction="row" spacing={2}>
                     <Avatar alt="Express JS" src={clock} />
                     </Stack> &nbsp; Submitting Project Withing Time.
@@ -66,10 +66,10 @@ function Services() {
 
 
                 <div className='col d-flex justify-content-end mb-2'>
-                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
+                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
                    
-                    <div class="card-body">
-                    <p class="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
+                    <div className="card-body">
+                    <p className="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
                     <Stack direction="row" spacing={2}>
                     <Avatar alt="Express JS" src={monitor} />
                     </Stack> &nbsp; Responsive Frontend Designs.
@@ -82,10 +82,10 @@ function Services() {
 
 
                 <div className='col d-flex justify-content-start mb-2'>
-                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
+                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
                    
-                    <div class="card-body">
-                    <p class="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
+                    <div className="card-body">
+                    <p className="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
                     <Stack direction="row" spacing={2}>
                     <Avatar alt="Express JS" src={error} />
                     </Stack> &nbsp; Any problem at future ? It's My &nbsp;&nbsp;Concern !!!
@@ -98,10 +98,10 @@ function Services() {
 
 
                 <div className='col d-flex justify-content-end mb-2'>
-                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
+                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
                    
-                    <div class="card-body">
-                    <p class="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
+                    <div className="card-body">
+                    <p className="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
                     <Stack direction="row" spacing={2}>
                     <Avatar alt="Express JS" src={revision} />
                     </Stack> &nbsp; Unlimited Revisions.
@@ -114,10 +114,10 @@ function Services() {
 
 
                 <div className='col d-flex justify-content-start mb-2'>
-                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} class="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
+                    <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
                    
-                    <div class="card-body">
-                    <p class="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
+                    <div className="card-body">
+                    <p className="card-text d-flex flex-row align-items-center" style={{color:'rgb(152, 28, 253)', fontSize:fontVolatile}}>
                     <Stack direction="row" spacing={2}>
                     <Avatar alt="Express JS" src={protection} />
                     </Stack> &nbsp; Backend Hashing & XSS Protection.
