@@ -27,10 +27,10 @@ function AboutMe() {
     }
   }
 
-  const yShift = useTransform(scrollY, sendRes, [1000,0, 1000])
-  const yShift2= useTransform(scrollY, sendRes, [-1000,0, -1000] )
-  const yShift3= useTransform(scrollY, sendRes, [-1000,0, -1000])
-  const yShift4= useTransform(scrollY, sendRes, [-1000,0, -1000])
+  const yShift = useTransform(scrollY, sendRes(), [1000,0, 1000])
+  const yShift2= useTransform(scrollY, sendRes(), [-1000,0, -1000] )
+  const yShift3= useTransform(scrollY, sendRes(), [-1000,0, -1000])
+  const yShift4= useTransform(scrollY, sendRes(), [-1000,0, -1000])
 
 
 
