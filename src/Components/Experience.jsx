@@ -24,7 +24,7 @@ function Experience() {
 
     const sendRes= ()=>{
         if(window.innerWidth<1000){
-          return [window.innerHeight, 2*window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 3*window.innerHeight]
+          return [window.innerHeight, 2*window.innerHeight+2*(window.innerHeight/14.2)+2*(((window.innerHeight/14.2)/10)), 3*window.innerHeight]
         }else{
           return [window.innerHeight, 2*window.innerHeight, 3*window.innerHeight]
         }
