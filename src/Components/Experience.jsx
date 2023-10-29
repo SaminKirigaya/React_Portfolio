@@ -22,8 +22,16 @@ function Experience() {
     const [heightVol, setHeightVol] = useState('')
     const [fontVol, setFontVol] = useState('')
 
-    const fromUp = useTransform(scrollY, [window.innerHeight, 2*window.innerHeight, 3*window.innerHeight], [-500, 0, -500])
-    const fromDown = useTransform(scrollY, [window.innerHeight, 2*window.innerHeight, 3*window.innerHeight], [500, 0, 500])
+    const sendRes= ()=>{
+        if(window.innerWidth<1000){
+          return [window.innerHeight, 2*window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 3*window.innerHeight]
+        }else{
+          return [window.innerHeight, 2*window.innerHeight, 3*window.innerHeight]
+        }
+      }
+
+    const fromUp = useTransform(scrollY, sendRes(), [-500, 0, -500])
+    const fromDown = useTransform(scrollY, sendRes (), [500, 0, 500])
 
     useEffect(()=>{
         if(window.innerWidth<540){
