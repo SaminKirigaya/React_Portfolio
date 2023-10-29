@@ -31,7 +31,7 @@ function Experience() {
       }
 
     const fromUp = useTransform(scrollY, sendRes(), [-500, 0, -500])
-    const fromDown = useTransform(scrollY, sendRes (), [500, 0, 500])
+    const fromDown = useTransform(scrollY, sendRes(), [500, 0, 500])
 
     useEffect(()=>{
         if(window.innerWidth<540){
