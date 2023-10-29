@@ -12,8 +12,18 @@ import contactIcon from '../Assets/Images/customer-experience.gif'
 function Contact() {
     const [volatileFont, setSize] = useState('')
     const {scrollY}= useScroll()
-    const changeFromTop = useTransform(scrollY, [5*window.innerHeight, 6*window.innerHeight, 7*window.innerHeight], [-500,0,-500])
-    const changeFromBottom = useTransform(scrollY, [5*window.innerHeight, 6*window.innerHeight, 7*window.innerHeight], [500,0,500])
+
+    const sendRes= ()=>{
+        if(window.innerWidth<1000){
+          return [5*window.innerHeight, 6*window.innerHeight+6*(window.innerHeight/14.2)+6*(((window.innerHeight/14.2)/10)), 7*window.innerHeight]
+        }else{
+          return [5*window.innerHeight, 6*window.innerHeight, 7*window.innerHeight]
+        }
+      }
+
+
+    const changeFromTop = useTransform(scrollY, sendRes(), [-500,0,-500])
+    const changeFromBottom = useTransform(scrollY, sendRes(), [500,0,500])
 
     useEffect(()=>{
         if(window.innerWidth<359){
