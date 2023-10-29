@@ -20,11 +20,21 @@ function AboutMe() {
   const [aboveMargin, setAboveMargin] = useState('')
 
 
-  const yShift = useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [1000,0, 1000])
-  const yShift2= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000] )
-  const yShift3= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
-  const yShift4= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
+  if(window.innerWidth<1000){
+    const yShift = useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [1000,0, 1000])
+    const yShift2= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000] )
+    const yShift3= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
+    const yShift4= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
 
+  }else{
+    const yShift = useTransform(scrollY, [0, window.innerHeight, 2*window.innerHeight], [1000,0, 1000])
+    const yShift2= useTransform(scrollY, [0, window.innerHeight, 2*window.innerHeight], [-1000,0, -1000] )
+    const yShift3= useTransform(scrollY, [0, window.innerHeight, 2*window.innerHeight], [-1000,0, -1000])
+    const yShift4= useTransform(scrollY, [0, window.innerHeight, 2*window.innerHeight], [-1000,0, -1000])
+
+  }
+
+  
 
   useEffect(()=>{
 
