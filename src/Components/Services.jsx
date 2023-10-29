@@ -14,8 +14,18 @@ import protection from '../Assets/Images/shield.png'
 function Services() {
     const [fontVolatile, setFontVolatile] = useState('')
     const {scrollY}=useScroll()
-    const changeXPos=useTransform(scrollY, [3*window.innerHeight, 4*window.innerHeight, 5*window.innerHeight], [1000, 0, 1000])
-    const changeXNeg=useTransform(scrollY, [3*window.innerHeight, 4*window.innerHeight, 5*window.innerHeight], [-1000, 0, -1000])
+
+    const sendRes= ()=>{
+        if(window.innerWidth<1000){
+          return [3*window.innerHeight, 4*window.innerHeight+4*(window.innerHeight/14.2)+4*(((window.innerHeight/14.2)/10)), 5*window.innerHeight]
+        }else{
+          return [3*window.innerHeight, 4*window.innerHeight, 5*window.innerHeight]
+        }
+      }
+
+
+    const changeXPos=useTransform(scrollY, sendRes(), [1000, 0, 1000])
+    const changeXNeg=useTransform(scrollY, sendRes(), [-1000, 0, -1000])
 
     useEffect(()=>{
         if(window.innerWidth>750 && window.innerWidth<1000){
