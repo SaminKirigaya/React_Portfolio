@@ -11,7 +11,16 @@ import bootcamp from '../Assets/Images/UC-04cc3bd6-20e8-4682-b236-bcd9f11c193b.j
 
 function Certificate() {
   const {scrollY}=useScroll()
-  const changeX= useTransform(scrollY,[2*window.innerHeight, 3*window.innerHeight, 4*window.innerHeight],[-1000, 0, 1000])
+
+  const sendRes= ()=>{
+    if(window.innerWidth<1000){
+      return [2*window.innerHeight, 3*window.innerHeight+3*(window.innerHeight/14.2)+3*(((window.innerHeight/14.2)/10)), 4*window.innerHeight]
+    }else{
+      return [2*window.innerHeight, 3*window.innerHeight, 4*window.innerHeight]
+    }
+  }
+
+  const changeX= useTransform(scrollY, sendRes(),[-1000, 0, 1000])
     
   return (
     <Fragment>
