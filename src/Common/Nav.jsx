@@ -23,8 +23,14 @@ function Nav() {
 
 
   const SecondPage = (e)=>{
-    let height = window.innerHeight
-    window.scrollTo(0,height)
+    if(window.innerWidth<1000){
+      let height = window.innerHeight+(window.innerHeight/14.2)
+      window.scrollTo(0,height)
+    }else{
+      let height = window.innerHeight
+      window.scrollTo(0,height)
+    }
+    
   }
 
 
