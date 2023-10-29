@@ -5,7 +5,10 @@ Here, we are not going to use old style css and js to make realistic animation a
 
 
 ## Demo Design
-![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_15 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/4ae4d340-98fd-4604-9236-030ea049203a)
+![Samin Arnob 😁 - Google Chrome 10_27_2023 4_45_10 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/d72b6bf0-6f36-46f6-9ef6-c01c4604107e)
+
+![Samin Arnob 😁 and 2 more pages![Samin Arnob 😁 - Google Chrome 10_27_2023 6_32_38 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/15703ad0-a234-4af2-bab5-7c76406d2326)
+ - Personal - Microsoft​ Edge 10_26_2023 7_12_15 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/4ae4d340-98fd-4604-9236-030ea049203a)
 ![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_23 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/276cf92e-c8f4-4690-8649-cf9a8a8f589b)
 ![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_30 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/72c4342c-0716-40dc-a28f-c9b72028b4b1)
 ![Samin Arnob 😁 and 2 more pages - Personal - Microsoft​ Edge 10_26_2023 7_12_36 PM](https://github.com/SaminKirigaya/React_Portfolio/assets/104618775/ff3509d8-49b6-468e-8aca-1b7dcba2999d)
