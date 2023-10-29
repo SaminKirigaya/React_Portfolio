@@ -23,7 +23,7 @@ function Projects() {
   const {scrollY}=useScroll()
   const sendRes= ()=>{
     if(window.innerWidth<1000){
-      return [4*window.innerHeight, 5*window.innerHeight+5*(window.innerHeight/14.2)+5*(((window.innerHeight/14.2)/10)), 6*window.innerHeight]
+      return [4*window.innerHeight, 5*window.innerHeight+5*(window.innerHeight/14.2)+3*(((window.innerHeight/14.2)/10)), 6*window.innerHeight]
     }else{
       return [4*window.innerHeight, 5*window.innerHeight, 6*window.innerHeight]
     }
