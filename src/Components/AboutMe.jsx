@@ -20,10 +20,10 @@ function AboutMe() {
   const [aboveMargin, setAboveMargin] = useState('')
 
 
-  const yShift = useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(2*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [1000,0, 1000])
-  const yShift2= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(2*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000] )
-  const yShift3= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(2*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
-  const yShift4= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(2*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
+  const yShift = useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(4*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [1000,0, 1000])
+  const yShift2= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(4*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000] )
+  const yShift3= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(4*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
+  const yShift4= useTransform(scrollY, [0, window.innerHeight+(window.innerHeight/14.2)+(4*((window.innerHeight/14.2)/10)), 2*window.innerHeight], [-1000,0, -1000])
 
 
   useEffect(()=>{
