@@ -29,7 +29,15 @@ function Projects() {
     }
   }
 
-  const changeX= useTransform(scrollY, sendRes(), [1000, 0, -1000])
+  const animateEffect=()=>{
+    if(window.innerWidth>1000){
+      return [1000, 0, -1000]
+    }else{
+      return [0, 0, 0]
+    }
+  }
+
+  const changeX= useTransform(scrollY, sendRes(), animateEffect())
 
   return (
     <Fragment>

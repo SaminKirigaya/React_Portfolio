@@ -21,9 +21,24 @@ function Contact() {
         }
       }
 
+      const animateEffect1 = ()=>{
+        if(window.innerWidth>1000){
+          return [-500,0,-500]
+        }else{
+          return [0,0,0]
+        }
+      }
 
-    const changeFromTop = useTransform(scrollY, sendRes(), [-500,0,-500])
-    const changeFromBottom = useTransform(scrollY, sendRes(), [500,0,500])
+      const animateEffect2= ()=>{
+        if(window.innerWidth>1000){
+          return [500, 0, 500]
+        }else{
+          return [0,0,0]
+        }
+      }
+
+    const changeFromTop = useTransform(scrollY, sendRes(), animateEffect1())
+    const changeFromBottom = useTransform(scrollY, sendRes(), animateEffect2())
 
     useEffect(()=>{
         if(window.innerWidth<359){

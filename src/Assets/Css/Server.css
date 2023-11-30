@@ -217,7 +217,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 0vh;
+    top: 0vh !important;
 }
 
 
@@ -600,7 +600,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 5vh;
+    top: 5vh !important;
 }
 
 
@@ -986,7 +986,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 3vh;
+    top: 3vh !important;
 }
 
 
@@ -1370,7 +1370,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 12vh;
+    top: 12vh !important;
 }
 
 
@@ -1762,7 +1762,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 14vh;
+    top: 14vh !important;
 }
 
 
@@ -2541,7 +2541,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 0vh;
+    top: 0vh !important;
 }
 
 
@@ -2925,7 +2925,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 18vh;
+    top: 18vh !important;
 }
 
 
@@ -3308,7 +3308,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 24vh;
+    top: 24vh !important;
 }
 
 
@@ -3697,7 +3697,7 @@
     background-color: rgb(152, 28, 253);
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
     position: relative;
-    top: 28vh;
+    top: 28vh !important;
 }
 
 

@@ -23,9 +23,25 @@ function Services() {
         }
       }
 
+      const animateEffect1 = ()=>{
+        if(window.innerWidth>1000){
+          return [1000,0,1000]
+        }else{
+          return [0,0,0]
+        }
+      }
 
-    const changeXPos=useTransform(scrollY, sendRes(), [1000, 0, 1000])
-    const changeXNeg=useTransform(scrollY, sendRes(), [-1000, 0, -1000])
+      const animateEffect2= ()=>{
+        if(window.innerWidth>1000){
+          return [-1000, 0, -1000]
+        }else{
+          return [0,0,0]
+        }
+      }
+
+
+    const changeXPos=useTransform(scrollY, sendRes(), animateEffect1())
+    const changeXNeg=useTransform(scrollY, sendRes(), animateEffect2())
 
     useEffect(()=>{
         if(window.innerWidth>750 && window.innerWidth<1000){

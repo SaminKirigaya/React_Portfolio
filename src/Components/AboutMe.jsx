@@ -27,10 +27,26 @@ function AboutMe() {
     }
   }
 
-  const yShift = useTransform(scrollY, sendRes(), [1000,0, 1000])
-  const yShift2= useTransform(scrollY, sendRes(), [-1000,0, -1000] )
-  const yShift3= useTransform(scrollY, sendRes(), [-1000,0, -1000])
-  const yShift4= useTransform(scrollY, sendRes(), [-1000,0, -1000])
+  const animationEffect1 = ()=>{
+    if(window.innerWidth>1000){
+      return [1000, 0, 1000]
+    }else{
+      return [0, 0, 0]
+    }
+  }
+
+  const animationEffect2 = ()=>{
+    if(window.innerWidth>1000){
+      return [-1000, 0, -1000]
+    }else{
+      return [0,0,0]
+    }
+  }
+
+  const yShift = useTransform(scrollY, sendRes(), animationEffect1())
+  const yShift2= useTransform(scrollY, sendRes(), animationEffect2() )
+  const yShift3= useTransform(scrollY, sendRes(), animationEffect2())
+  const yShift4= useTransform(scrollY, sendRes(), animationEffect2())
 
 
 

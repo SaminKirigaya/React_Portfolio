@@ -30,8 +30,24 @@ function Experience() {
         }
       }
 
-    const fromUp = useTransform(scrollY, sendRes(), [-500, 0, -500])
-    const fromDown = useTransform(scrollY, sendRes(), [500, 0, 500])
+      const animateEffect1 = ()=>{
+        if(window.innerWidth>1000){
+          return [-500,0,-500]
+        }else{
+          return [0,0,0]
+        }
+      }
+
+      const animateEffect2= ()=>{
+        if(window.innerWidth>1000){
+          return [500, 0, 500]
+        }else{
+          return [0,0,0]
+        }
+      }
+
+    const fromUp = useTransform(scrollY, sendRes(), animateEffect1())
+    const fromDown = useTransform(scrollY, sendRes(), animateEffect2())
 
     useEffect(()=>{
         if(window.innerWidth<540){
