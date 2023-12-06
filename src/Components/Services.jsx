@@ -14,6 +14,7 @@ import protection from '../Assets/Images/shield.png'
 function Services() {
     const [fontVolatile, setFontVolatile] = useState('')
     const {scrollY}=useScroll()
+    const enterPosition2 = window.innerHeight * 0.5;
 
     const sendRes= ()=>{
         if(window.innerWidth<1000){
@@ -50,17 +51,68 @@ function Services() {
             setFontVolatile('0.8rem')
         }
     },[])
+
+
+    useEffect(()=>{
+      if(window.innerWidth<1023){
+      window.addEventListener('scroll', ()=>{
+        try{
+          let pos = document.getElementById("positionServ")
+          let pos2 = pos.getBoundingClientRect().top
+          let pos3 = pos.getBoundingClientRect().bottom
+          const divBox6 = document.getElementById ("servLeft1")
+          const divBox7 = document.getElementById ("servLeft2")
+          const divBox8 = document.getElementById ("servLeft3")
+          const divBox9 = document.getElementById("servRight1")
+          const divBox10 = document.getElementById("servRight2")
+          const divBox11 = document.getElementById("servRight3")
+  
+          if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
+            divBox6.style.transform= 'translateX(0%)';
+            divBox9.style.transform= 'translateX(0%)';
+            divBox7.style.transform= 'translateX(0%)';
+            divBox10.style.transform= 'translateX(0%)';
+            divBox8.style.transform= 'translateX(0%)';
+            divBox11.style.transform= 'translateX(0%)';
+          } else {
+            divBox6.style.transform= 'translateX(-150%)';
+            divBox9.style.transform= 'translateX(150%)';
+            divBox7.style.transform= 'translateX(-150%)';
+            divBox10.style.transform= 'translateX(150%)';
+            divBox8.style.transform= 'translateX(-150%)';
+            divBox11.style.transform= 'translateX(150%)';
+          }
+  
+          divBox6.style.transition = 'transform 0.4s';
+          divBox7.style.transition = 'transform 0.4s';
+          divBox8.style.transition = 'transform 0.4s';
+          divBox9.style.transition = 'transform 0.4s';
+          divBox10.style.transition = 'transform 0.4s';
+          divBox11.style.transition = 'transform 0.4s';
+  
+          console.log(pos2,pos3)
+        }catch(err){
+          console.log(err)
+        }
+        
+      })
+    }
+    },[])
+
+    
   return (
     <Fragment>
         <div className='sidePageSize' style={{overflowY:'hidden',overflowX:'hidden', zIndex:'200'}}>
             <div className='sidePageSizeService' style={{overflowY:'hidden',overflowX:'hidden', zIndex:'-200'}}>
             </div>
 
+            <div id='positionServ'></div>
+
             <motion.h4 whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='mx-auto fromTop' style={{color:'white', cursor:'pointer'}}>My Services</motion.h4>
 
             <div className='row row-cols-1 row-cols-md-2 rowPosition d-flex justify-content-center ps-3 pe-3'>
 
-                <div className='col d-flex justify-content-end mb-2'>
+                <div id="servLeft1" className='col d-flex justify-content-end mb-2'>
                     <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
                    
                     <div className="card-body">
@@ -76,7 +128,7 @@ function Services() {
 
 
 
-                <div className='col d-flex justify-content-start mb-2'>
+                <div id="servRight1" className='col d-flex justify-content-start mb-2'>
                     <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
                    
                     <div className="card-body">
@@ -91,7 +143,7 @@ function Services() {
 
 
 
-                <div className='col d-flex justify-content-end mb-2'>
+                <div id="servLeft2" className='col d-flex justify-content-end mb-2'>
                     <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
                    
                     <div className="card-body">
@@ -107,7 +159,7 @@ function Services() {
 
 
 
-                <div className='col d-flex justify-content-start mb-2'>
+                <div id="servRight2" className='col d-flex justify-content-start mb-2'>
                     <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
                    
                     <div className="card-body">
@@ -123,7 +175,7 @@ function Services() {
 
 
 
-                <div className='col d-flex justify-content-end mb-2'>
+                <div id="servLeft3" className='col d-flex justify-content-end mb-2'>
                     <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXNeg}}>
                    
                     <div className="card-body">
@@ -139,7 +191,7 @@ function Services() {
 
 
 
-                <div className='col d-flex justify-content-start mb-2'>
+                <div id="servRight3" className='col d-flex justify-content-start mb-2'>
                     <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card" style={{width: '18rem', cursor:'pointer', border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', x:changeXPos}}>
                    
                     <div className="card-body">

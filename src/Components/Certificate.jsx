@@ -12,6 +12,7 @@ import bootcamp from '../Assets/Images/UC-04cc3bd6-20e8-4682-b236-bcd9f11c193b.j
 function Certificate() {
   const {scrollY}=useScroll()
 
+  const enterPosition2 = window.innerHeight * 0.5;
   const sendRes= ()=>{
     if(window.innerWidth<1000){
       return [2*window.innerHeight, 3*window.innerHeight+3*(window.innerHeight/14.2)+3*(((window.innerHeight/14.2)/10)), 4*window.innerHeight]
@@ -29,6 +30,37 @@ function Certificate() {
   }
 
   const changeX= useTransform(scrollY, sendRes(),animateEffect())
+
+  useEffect(()=>{
+    if(window.innerWidth<1023){
+    window.addEventListener('scroll', ()=>{
+      try{
+        let pos = document.getElementById("positionCert")
+        let pos2 = pos.getBoundingClientRect().top
+        let pos3 = pos.getBoundingClientRect().bottom
+        const divBox5 = document.getElementById("carouselExampleIndicators")
+        
+
+        if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
+          divBox5.style.transform= 'translateX(0%)';
+         
+        } else {
+          divBox5.style.transform= 'translateX(-150%)';
+          
+        }
+
+        divBox5.style.transition = 'transform 0.4s';
+       
+
+        console.log(pos2,pos3)
+      }catch(err){
+        console.log(err)
+      }
+      
+    })
+  }
+  },[])
+
     
   return (
     <Fragment>
@@ -36,12 +68,14 @@ function Certificate() {
     <div className='sidePageSize' style={{overflowY:'hidden',overflowX:'hidden', zIndex:'200'}}>
     
         <div className='sidePageSizeExp' style={{overflowY:'hidden',overflowX:'hidden', zIndex:'-200'}}></div>
+
+        <div id='positionCert'></div>
         
         <motion.h4 whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='mx-auto addMargin' style={{color:'white', cursor:'pointer'}}>My Certificates</motion.h4>
         
 
-
-        <motion.div id="carouselExampleIndicators" className="carousel slide carouselPosition mx-auto" data-bs-ride="carousel" style={{x:changeX}}>
+        {window.innerWidth>1023 ? 
+          <motion.div id="carouselExampleIndicators" className="carousel slide carouselPosition mx-auto" data-bs-ride="carousel" style={{x:changeX}}>
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -71,7 +105,43 @@ function Certificate() {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </motion.div>
+      </motion.div> :
+
+      <div id="carouselExampleIndicators" className="carousel slide carouselPosition mx-auto" data-bs-ride="carousel" style={{x:changeX}}>
+      <div className="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src={react} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={reactAdv} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={frontend} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+        <img src={bootcamp} className="d-block w-100" alt="..." />
+       </div>
+
+      </div>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
+    </div>
+          
+        }
+
+        
         
         
 

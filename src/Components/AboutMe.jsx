@@ -13,6 +13,7 @@ import prof from '../Assets/Images/hiring.gif'
 function AboutMe() {
 
   const {scrollY} = useScroll()
+  const enterPosition2 = window.innerHeight * 0.5;
 
   const [volatileSize, setVolatileSize] = useState('')
   const [volatileSize2, setvolatileSize2] = useState('')
@@ -94,6 +95,38 @@ function AboutMe() {
     }
   },[])
 
+
+  useEffect(()=>{
+    if(window.innerWidth<1023){
+    window.addEventListener('scroll', ()=>{
+      try{
+        let pos = document.getElementById("positionAbout")
+        let pos2 = pos.getBoundingClientRect().top
+        let pos3 = pos.getBoundingClientRect().bottom
+        const divBox2 = document.getElementById("aboutCardsData")
+        const divBox3 = document.getElementById("threeCardsData")
+
+        if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
+          divBox2.style.transform= 'translateX(0%)';
+          divBox3.style.transform= 'translateX(0%)';
+        } else {
+          divBox2.style.transform= 'translateX(-150%)';
+          divBox3.style.transform= 'translateX(150%)';
+        }
+
+        divBox2.style.transition = 'transform 0.4s';
+        divBox3.style.transition = 'transform 0.4s';
+
+        console.log(pos2,pos3)
+      }catch(err){
+        console.log(err)
+      }
+      
+    })
+  }
+  },[])
+
+
   return (
     <Fragment>
     <div className='sidePageSize' style={{overflowY:'hidden',overflowX:'hidden'}}>
@@ -103,11 +136,12 @@ function AboutMe() {
 
         </div>
 
+        <div id='positionAbout'></div>
 
         <motion.h4 whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} style={{ color:'rgb(152, 28, 253)', cursor:'pointer'}} className='mx-auto aboutMe'>About Me</motion.h4>
 
 
-        <div className='threeCards'>
+        <div id="threeCardsData" className='threeCards'>
           <div className='row row-cols-2 d-flex'>
 
 
@@ -166,7 +200,9 @@ function AboutMe() {
 
         </div>
 
-        <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='aboutCards' style={{color:'rgb(102, 0, 185)', cursor:'pointer', x:yShift}}>
+
+        {window.innerWidth>1023 ? 
+          <motion.div id="aboutCardsData" whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='aboutCards' style={{color:'rgb(102, 0, 185)', cursor:'pointer', x:yShift}}>
           <p className='mx-auto text-center d-flex justify-content-center flex-row mb-0 disp2k' style={{fontSize:volatileSize}}><Stack direction="row" spacing={2}>
           <Avatar alt="Hello" src={wavegif} />
           </Stack> &nbsp;&nbsp;
@@ -174,7 +210,18 @@ function AboutMe() {
           <p className='mx-auto text-justify aboutText justIt' style={{marginTop: aboveMargin}}>My Major Was In Electronics & Telecommunication Engineering. But, Later I Figured Out I Never Had Passion For Electrical Components Instead I Had Passion For Coding. So, I Started To Self Teach Myself Code From Udemy, W3schools & Stack Overflow.</p>
           <p className='mx-auto text-justify aboutText justIt'>Currently I'm A Full-Stack Developer. My Main Fields of Working Are Node Js, Express Js, React Js, Framer Motion, Bootstrap, CSS, JS/ES6/ES7, MySql & MongoDB.</p>
 
-          </motion.div>
+          </motion.div> :
+          <div id="aboutCardsData" whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='aboutCards' style={{color:'rgb(102, 0, 185)', cursor:'pointer', x:yShift}}>
+          <p className='mx-auto text-center d-flex justify-content-center flex-row mb-0 disp2k' style={{fontSize:volatileSize}}><Stack direction="row" spacing={2}>
+          <Avatar alt="Hello" src={wavegif} />
+          </Stack> &nbsp;&nbsp;
+          Hello, I'm &nbsp;<span style={{fontWeight:'bold'}}>Samin Arnob</span>.</p>
+          <p className='mx-auto text-justify aboutText justIt' style={{marginTop: aboveMargin}}>My Major Was In Electronics & Telecommunication Engineering. But, Later I Figured Out I Never Had Passion For Electrical Components Instead I Had Passion For Coding. So, I Started To Self Teach Myself Code From Udemy, W3schools & Stack Overflow.</p>
+          <p className='mx-auto text-justify aboutText justIt'>Currently I'm A Full-Stack Developer. My Main Fields of Working Are Node Js, Express Js, React Js, Framer Motion, Bootstrap, CSS, JS/ES6/ES7, MySql & MongoDB.</p>
+
+          </div>
+        }
+        
 
 
         <div className='reverseWave' style={{zIndex:'-200'}}>

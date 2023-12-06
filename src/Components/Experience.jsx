@@ -18,6 +18,7 @@ import redux from '../Assets/Images/redux.jpg'
 function Experience() {
 
     const {scrollY} = useScroll()
+    const enterPosition2 = window.innerHeight * 0.5;
     const [widthVol, setWidthVol] = useState('')
     const [heightVol, setHeightVol] = useState('')
     const [fontVol, setFontVol] = useState('')
@@ -72,6 +73,39 @@ function Experience() {
             setFontVol('0.85rem')
         }
     },[])
+
+
+    useEffect(()=>{
+      if(window.innerWidth<1023){
+      window.addEventListener('scroll', ()=>{
+        try{
+          let pos = document.getElementById("positionExp")
+          let pos2 = pos.getBoundingClientRect().top
+          let pos3 = pos.getBoundingClientRect().bottom
+          const divBox4 = document.getElementById("aboutExperience")
+          
+  
+          if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
+            divBox4.style.opacity= '1';
+           
+          } else {
+            divBox4.style.opacity= '0';
+          
+          }
+  
+          divBox4.style.transition = 'opacity 0.4s';
+          
+  
+          console.log(pos2,pos3)
+        }catch(err){
+          console.log(err)
+        }
+        
+      })
+    }
+    },[])
+
+
   return (
 
     <Fragment>
@@ -79,10 +113,12 @@ function Experience() {
     
     <div className='upperCut' style={{zIndex:'-200'}}>
     </div>
+
+    <div id='positionExp'></div>
     
     <motion.h4 whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className='mx-auto giveMargin' style={{color:'rgb(152, 28, 253)', cursor:'pointer'}}>Experienced In</motion.h4>
 
-    <div className='row row-cols-2 row-cols-md-5 d-flex justify-content-center mx-auto' style={{marginTop:'1rem'}}>
+    <div id="aboutExperience" className='row row-cols-2 row-cols-md-5 d-flex justify-content-center mx-auto' style={{marginTop:'1rem'}}>
 
     <div className='col mb-1 mb-md-2'>
         <motion.div whileHover={{scale: [1,1.1]}} transition={{duration: 1.3, type :'spring', stiffness: 350}} className="card d-flex justify-content-center align-items-center flex-column mx-auto" style={{width: widthVol, cursor:'pointer', height: heightVol, border:'0.15rem solid rgb(152, 28, 253)', backgroundColor:'#f5f5f6', borderRadius:'0.9rem', y:fromUp}}>

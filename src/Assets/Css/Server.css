@@ -1,4 +1,6 @@
 @media (min-width:319px) and (max-width:358px){
+    
+
     .mainRect{
         min-width: 13vw;
         max-width: 13vw;
@@ -382,6 +384,75 @@
 
 
 @media (min-width: 359px) and (max-width: 370px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+  
+
+
     .mainRect{
         min-width: 13vw;
         max-width: 13vw;
@@ -559,6 +630,10 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+ 
+
+   
 }
 
 .reverseWave{
@@ -767,6 +842,73 @@
 
 
 @media (min-width: 371px) and (max-width: 389px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+      
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
     .mainRect{
         min-width: 13vw;
         max-width: 13vw;
@@ -945,6 +1087,8 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+   
 }
 
 .reverseWave{
@@ -1151,6 +1295,75 @@
 }
 
 @media (min-width: 390px) and (max-width: 410px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+       
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
     .mainRect{
         min-width: 14vw;
         max-width: 14vw;
@@ -1329,6 +1542,8 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+
 }
 
 .reverseWave{
@@ -1541,6 +1756,74 @@
 
 
 @media (min-width: 410px) and (max-width: 419px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+      
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
     .mainRect{
         min-width: 14vw;
         max-width: 14vw;
@@ -1720,6 +2003,8 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+ 
 }
 
 .reverseWave{
@@ -1934,6 +2219,72 @@
 
 
 @media (min-width: 420px) and (max-width: 539px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+      
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
     .mainRect{
         min-width: 14vw;
         max-width: 14vw;
@@ -2113,6 +2464,8 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+   
 }
 
 .reverseWave{
@@ -2324,6 +2677,73 @@
 
 
 @media (min-width: 540px) and (max-width: 760px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+       
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
     .mainRect{
         min-width: 9vw;
         max-width: 9vw;
@@ -2500,6 +2920,8 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+ 
 }
 
 .reverseWave{
@@ -2709,6 +3131,74 @@
 }   
 
 @media (min-width: 761px) and (max-width: 819px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+       
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
     .mainRect{
         min-width: 9vw;
         max-width: 9vw;
@@ -2884,6 +3374,8 @@
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+
+  
 }
 
 .reverseWave{
@@ -3094,6 +3586,73 @@
 
 
 @media (min-width: 820px) and (max-width: 910px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+      
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
     .mainRect{
         min-width: 9vw;
         max-width: 9vw;
@@ -3269,6 +3828,8 @@
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+
+ 
 }
 
 .reverseWave{
@@ -3476,6 +4037,73 @@
 
 
 @media (min-width: 911px) and (max-width: 1020px){
+    #positionAbout{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+        
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionExp{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+
+    #positionCert{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionServ{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionProj{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
+    #positionCont{
+        display: block !important;
+        position: absolute !important;
+        top: 0vh !important;
+        left: 29vw !important;
+     
+        width: 30vw !important;
+        height: 100vh !important;
+        z-index: 2000 !important;
+    }
+
     .mainRect{
         min-width: 9vw;
         max-width: 9vw;
@@ -3529,6 +4157,8 @@
         background-color: rgb(152, 28, 253)
         
     } 
+
+
 
 
     
@@ -3656,6 +4286,8 @@
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+
+   
 }
 
 .reverseWave{
