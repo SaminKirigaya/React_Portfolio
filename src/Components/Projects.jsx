@@ -21,7 +21,7 @@ import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 
 function Projects() {
   const {scrollY}=useScroll()
- 
+  const enterPosition2 = window.innerHeight * 0.5;
   const sendRes= ()=>{
     if(window.innerWidth<1000){
       return [4*window.innerHeight, 5*window.innerHeight+5*(window.innerHeight/14.2)+6*(((window.innerHeight/14.2)/10)), 6*window.innerHeight]
