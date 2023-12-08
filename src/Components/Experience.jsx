@@ -18,7 +18,7 @@ import redux from '../Assets/Images/redux.jpg'
 function Experience() {
 
     const {scrollY} = useScroll()
-    const enterPosition2 = window.innerHeight * 0.5;
+    
     const [widthVol, setWidthVol] = useState('')
     const [heightVol, setHeightVol] = useState('')
     const [fontVol, setFontVol] = useState('')
@@ -75,35 +75,7 @@ function Experience() {
     },[])
 
 
-    useEffect(()=>{
-      if(window.innerWidth<1023){
-      window.addEventListener('scroll', ()=>{
-        try{
-          let pos = document.getElementById("positionExp")
-          let pos2 = pos.getBoundingClientRect().top
-          let pos3 = pos.getBoundingClientRect().bottom
-          const divBox4 = document.getElementById("aboutExperience")
-          
-  
-          if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
-            divBox4.style.opacity= '1';
-           
-          } else {
-            divBox4.style.opacity= '0';
-          
-          }
-  
-          divBox4.style.transition = 'opacity 0.4s';
-          
-  
-          console.log(pos2,pos3)
-        }catch(err){
-          console.log(err)
-        }
-        
-      })
-    }
-    },[])
+    
 
 
   return (

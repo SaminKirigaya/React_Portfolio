@@ -12,7 +12,7 @@ import contactIcon from '../Assets/Images/customer-experience.gif'
 function Contact() {
     const [volatileFont, setSize] = useState('')
     const {scrollY}= useScroll()
-    const enterPosition2 = window.innerHeight * 0.5;
+    
 
     const sendRes= ()=>{
         if(window.innerWidth<1000){
@@ -50,36 +50,7 @@ function Contact() {
     },[])
 
 
-    useEffect(()=>{
-      if(window.innerWidth<1023){
-      window.addEventListener('scroll', ()=>{
-        try{
-          let pos = document.getElementById("positionCont")
-          let pos2 = pos.getBoundingClientRect().top
-          let pos3 = pos.getBoundingClientRect().bottom
-          const divBox13 = document.getElementById("topBox")
-          const divBox14 = document.getElementById("bottomBox")
-  
-          if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
-            divBox13.style.transform= 'translateY(0%)';
-            divBox14.style.transform= 'translateY(0%)';
-          } else {
-            divBox13.style.transform= 'translateY(-300%)';
-            divBox14.style.transform= 'translateY(300%)';
-          }
-  
-          divBox13.style.transition = 'transform 0.4s';
-          divBox14.style.transition = 'transform 0.4s';
-  
-          console.log(pos2,pos3)
-        }catch(err){
-          console.log(err)
-        }
-        
-      })
-    }
-    },[])
-
+    
 
   return (
     <Fragment>

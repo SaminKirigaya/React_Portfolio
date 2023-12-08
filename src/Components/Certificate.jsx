@@ -12,7 +12,7 @@ import bootcamp from '../Assets/Images/UC-04cc3bd6-20e8-4682-b236-bcd9f11c193b.j
 function Certificate() {
   const {scrollY}=useScroll()
 
-  const enterPosition2 = window.innerHeight * 0.5;
+  
   const sendRes= ()=>{
     if(window.innerWidth<1000){
       return [2*window.innerHeight, 3*window.innerHeight+3*(window.innerHeight/14.2)+3*(((window.innerHeight/14.2)/10)), 4*window.innerHeight]
@@ -31,35 +31,7 @@ function Certificate() {
 
   const changeX= useTransform(scrollY, sendRes(),animateEffect())
 
-  useEffect(()=>{
-    if(window.innerWidth<1023){
-    window.addEventListener('scroll', ()=>{
-      try{
-        let pos = document.getElementById("positionCert")
-        let pos2 = pos.getBoundingClientRect().top
-        let pos3 = pos.getBoundingClientRect().bottom
-        const divBox5 = document.getElementById("carouselExampleIndicators")
-        
-
-        if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
-          divBox5.style.transform= 'translateX(0%)';
-         
-        } else {
-          divBox5.style.transform= 'translateX(-150%)';
-          
-        }
-
-        divBox5.style.transition = 'transform 0.4s';
-       
-
-        console.log(pos2,pos3)
-      }catch(err){
-        console.log(err)
-      }
-      
-    })
-  }
-  },[])
+  
 
     
   return (

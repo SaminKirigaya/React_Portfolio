@@ -13,7 +13,7 @@ import prof from '../Assets/Images/hiring.gif'
 function AboutMe() {
 
   const {scrollY} = useScroll()
-  const enterPosition2 = window.innerHeight * 0.5;
+  
 
   const [volatileSize, setVolatileSize] = useState('')
   const [volatileSize2, setvolatileSize2] = useState('')
@@ -96,35 +96,7 @@ function AboutMe() {
   },[])
 
 
-  useEffect(()=>{
-    if(window.innerWidth<1023){
-    window.addEventListener('scroll', ()=>{
-      try{
-        let pos = document.getElementById("positionAbout")
-        let pos2 = pos.getBoundingClientRect().top
-        let pos3 = pos.getBoundingClientRect().bottom
-        const divBox2 = document.getElementById("aboutCardsData")
-        const divBox3 = document.getElementById("threeCardsData")
-
-        if (pos2 <= enterPosition2 && pos3 >= enterPosition2) {
-          divBox2.style.transform= 'translateX(0%)';
-          divBox3.style.transform= 'translateX(0%)';
-        } else {
-          divBox2.style.transform= 'translateX(-150%)';
-          divBox3.style.transform= 'translateX(150%)';
-        }
-
-        divBox2.style.transition = 'transform 0.4s';
-        divBox3.style.transition = 'transform 0.4s';
-
-        console.log(pos2,pos3)
-      }catch(err){
-        console.log(err)
-      }
-      
-    })
-  }
-  },[])
+  
 
 
   return (
