@@ -9,7 +9,7 @@ import bs from '../Assets/Images/b5.png'
 import css from '../Assets/Images/css.png'
 import js from '../Assets/Images/js.png'
 import node from '../Assets/Images/node.png'
-import express from '../Assets/Images/express.png'
+import figma from '../Assets/Images/figma.png'
 import react from '../Assets/Images/react.png'
 import sql from '../Assets/Images/sql.jpg'
 import mongo from '../Assets/Images/mongo.png'
@@ -184,9 +184,9 @@ function Experience() {
         
         <div className="card-body d-flex justify-content-center flex-column align-items-center">
         <p className='card-text'><Stack direction="row" spacing={2}>
-        <Avatar alt="Express JS" src={express} />
+        <Avatar alt="Figma" src={figma} />
         </Stack></p>
-        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>EXPRESS JS</p>
+        <p className="card-text" style={{fontWeight:'bold', fontSize: fontVol, color:'rgb(152, 28, 253)'}}>FIGMA</p>
         
         </div>
         </motion.div>

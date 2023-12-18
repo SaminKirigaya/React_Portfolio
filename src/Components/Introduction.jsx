@@ -87,7 +87,7 @@ function Introduction() {
     console.log(window.innerHeight)
     // Define the options for Typed.js
     const options = {
-      strings: ['Samin Arnob.', 'A Full-Stack Developer.', 'A MERN Stack Developer.', 'Always Free For Your Project.'],
+      strings: ['Samin Arnob.', 'A Full-Stack Developer.', 'Working In MERN Stack.', 'A UI/UX (Figma) Designer.', 'Always Free For Your Project.'],
       typeSpeed: 100, // typing speed in milliseconds
       backSpeed: 50, // backspacing speed in milliseconds
       loop: true, // loop the animation
